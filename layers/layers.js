@@ -789,123 +789,138 @@ var lyr_HeritageRegister_52 = new ol.layer.Vector({
                 interactive: false,
                 title: '<img src="styles/legend/HeritageRegister_52.png" /> Heritage Register'
             });
-var format_SSP5_53 = new ol.format.GeoJSON();
-var features_SSP5_53 = format_SSP5_53.readFeatures(json_SSP5_53, 
+var format_WBWaterwaysBuffered_53 = new ol.format.GeoJSON();
+var features_WBWaterwaysBuffered_53 = format_WBWaterwaysBuffered_53.readFeatures(json_WBWaterwaysBuffered_53, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SSP5_53 = new ol.source.Vector({
+var jsonSource_WBWaterwaysBuffered_53 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SSP5_53.addFeatures(features_SSP5_53);
-var lyr_SSP5_53 = new ol.layer.Vector({
+jsonSource_WBWaterwaysBuffered_53.addFeatures(features_WBWaterwaysBuffered_53);
+var lyr_WBWaterwaysBuffered_53 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SSP5_53, 
-                style: style_SSP5_53,
+                source:jsonSource_WBWaterwaysBuffered_53, 
+                style: style_WBWaterwaysBuffered_53,
+                popuplayertitle: "WB - Waterways Buffered",
+                interactive: false,
+                title: '<img src="styles/legend/WBWaterwaysBuffered_53.png" /> WB - Waterways Buffered'
+            });
+var format_SSP5_54 = new ol.format.GeoJSON();
+var features_SSP5_54 = format_SSP5_54.readFeatures(json_SSP5_54, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_SSP5_54 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_SSP5_54.addFeatures(features_SSP5_54);
+var lyr_SSP5_54 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_SSP5_54, 
+                style: style_SSP5_54,
                 popuplayertitle: "SSP 5",
                 interactive: false,
-                title: '<img src="styles/legend/SSP5_53.png" /> SSP 5'
+                title: '<img src="styles/legend/SSP5_54.png" /> SSP 5'
             });
-var format_SSP3_54 = new ol.format.GeoJSON();
-var features_SSP3_54 = format_SSP3_54.readFeatures(json_SSP3_54, 
+var format_SSP3_55 = new ol.format.GeoJSON();
+var features_SSP3_55 = format_SSP3_55.readFeatures(json_SSP3_55, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SSP3_54 = new ol.source.Vector({
+var jsonSource_SSP3_55 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SSP3_54.addFeatures(features_SSP3_54);
-var lyr_SSP3_54 = new ol.layer.Vector({
+jsonSource_SSP3_55.addFeatures(features_SSP3_55);
+var lyr_SSP3_55 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SSP3_54, 
-                style: style_SSP3_54,
+                source:jsonSource_SSP3_55, 
+                style: style_SSP3_55,
                 popuplayertitle: "SSP 3",
                 interactive: false,
-                title: '<img src="styles/legend/SSP3_54.png" /> SSP 3'
+                title: '<img src="styles/legend/SSP3_55.png" /> SSP 3'
             });
-var format_SSP2_55 = new ol.format.GeoJSON();
-var features_SSP2_55 = format_SSP2_55.readFeatures(json_SSP2_55, 
+var format_SSP2_56 = new ol.format.GeoJSON();
+var features_SSP2_56 = format_SSP2_56.readFeatures(json_SSP2_56, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SSP2_55 = new ol.source.Vector({
+var jsonSource_SSP2_56 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SSP2_55.addFeatures(features_SSP2_55);
-var lyr_SSP2_55 = new ol.layer.Vector({
+jsonSource_SSP2_56.addFeatures(features_SSP2_56);
+var lyr_SSP2_56 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SSP2_55, 
-                style: style_SSP2_55,
+                source:jsonSource_SSP2_56, 
+                style: style_SSP2_56,
                 popuplayertitle: "SSP 2",
                 interactive: false,
-                title: '<img src="styles/legend/SSP2_55.png" /> SSP 2'
+                title: '<img src="styles/legend/SSP2_56.png" /> SSP 2'
             });
-var lyr_BagshotPrecinctConceptStructurePlan_56 = new ol.layer.Image({
+var lyr_BagshotPrecinctConceptStructurePlan_57 = new ol.layer.Image({
                             opacity: 1,
                             title: "Bagshot Precinct Concept Structure Plan",
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/BagshotPrecinctConceptStructurePlan_56.png",
+                               url: "./layers/BagshotPrecinctConceptStructurePlan_57.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
                                 imageExtent: [16069919.504875, -4394514.728123, 16072530.017845, -4391267.477228]
                             })
                         });
-var format_LGA_57 = new ol.format.GeoJSON();
-var features_LGA_57 = format_LGA_57.readFeatures(json_LGA_57, 
+var format_LGA_58 = new ol.format.GeoJSON();
+var features_LGA_58 = format_LGA_58.readFeatures(json_LGA_58, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LGA_57 = new ol.source.Vector({
+var jsonSource_LGA_58 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LGA_57.addFeatures(features_LGA_57);
-var lyr_LGA_57 = new ol.layer.Vector({
+jsonSource_LGA_58.addFeatures(features_LGA_58);
+var lyr_LGA_58 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LGA_57, 
-                style: style_LGA_57,
+                source:jsonSource_LGA_58, 
+                style: style_LGA_58,
                 popuplayertitle: "LGA",
                 interactive: false,
-                title: '<img src="styles/legend/LGA_57.png" /> LGA'
+                title: '<img src="styles/legend/LGA_58.png" /> LGA'
             });
-var format_GreaterBendigoProperties_58 = new ol.format.GeoJSON();
-var features_GreaterBendigoProperties_58 = format_GreaterBendigoProperties_58.readFeatures(json_GreaterBendigoProperties_58, 
+var format_GreaterBendigoProperties_59 = new ol.format.GeoJSON();
+var features_GreaterBendigoProperties_59 = format_GreaterBendigoProperties_59.readFeatures(json_GreaterBendigoProperties_59, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_GreaterBendigoProperties_58 = new ol.source.Vector({
+var jsonSource_GreaterBendigoProperties_59 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_GreaterBendigoProperties_58.addFeatures(features_GreaterBendigoProperties_58);
-var lyr_GreaterBendigoProperties_58 = new ol.layer.Vector({
+jsonSource_GreaterBendigoProperties_59.addFeatures(features_GreaterBendigoProperties_59);
+var lyr_GreaterBendigoProperties_59 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_GreaterBendigoProperties_58, 
-                style: style_GreaterBendigoProperties_58,
+                source:jsonSource_GreaterBendigoProperties_59, 
+                style: style_GreaterBendigoProperties_59,
                 popuplayertitle: "Greater Bendigo Properties",
                 interactive: true,
-                title: '<img src="styles/legend/GreaterBendigoProperties_58.png" /> Greater Bendigo Properties'
+                title: '<img src="styles/legend/GreaterBendigoProperties_59.png" /> Greater Bendigo Properties'
             });
-var format_Suburb_59 = new ol.format.GeoJSON();
-var features_Suburb_59 = format_Suburb_59.readFeatures(json_Suburb_59, 
+var format_Suburb_60 = new ol.format.GeoJSON();
+var features_Suburb_60 = format_Suburb_60.readFeatures(json_Suburb_60, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Suburb_59 = new ol.source.Vector({
+var jsonSource_Suburb_60 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Suburb_59.addFeatures(features_Suburb_59);
-var lyr_Suburb_59 = new ol.layer.Vector({
+jsonSource_Suburb_60.addFeatures(features_Suburb_60);
+var lyr_Suburb_60 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Suburb_59, 
-                style: style_Suburb_59,
+                source:jsonSource_Suburb_60, 
+                style: style_Suburb_60,
                 popuplayertitle: "Suburb",
                 interactive: false,
-                title: '<img src="styles/legend/Suburb_59.png" /> Suburb'
+                title: '<img src="styles/legend/Suburb_60.png" /> Suburb'
             });
 var group_Administrative = new ol.layer.Group({
-                                layers: [lyr_LGA_57,lyr_GreaterBendigoProperties_58,lyr_Suburb_59,],
+                                layers: [lyr_LGA_58,lyr_GreaterBendigoProperties_59,lyr_Suburb_60,],
                                 fold: "open",
                                 title: "Administrative"});
 var group_StructurePlan = new ol.layer.Group({
-                                layers: [lyr_BagshotPrecinctConceptStructurePlan_56,],
+                                layers: [lyr_BagshotPrecinctConceptStructurePlan_57,],
                                 fold: "open",
                                 title: "Structure Plan"});
 var group_SSPFloodScenario20812100 = new ol.layer.Group({
-                                layers: [lyr_SSP5_53,lyr_SSP3_54,lyr_SSP2_55,],
+                                layers: [lyr_SSP5_54,lyr_SSP3_55,lyr_SSP2_56,],
                                 fold: "open",
                                 title: "SSP Flood Scenario 2081-2100"});
 var group_NDHDeductedOverlays = new ol.layer.Group({
-                                layers: [lyr_FOFloodwayOverlay_48,lyr_HOHeritageOverlay_49,lyr_LSIOLandSubjecttoInundationOverlay_50,lyr_VPOVegetationProtectionOverlay_51,lyr_HeritageRegister_52,],
+                                layers: [lyr_FOFloodwayOverlay_48,lyr_HOHeritageOverlay_49,lyr_LSIOLandSubjecttoInundationOverlay_50,lyr_VPOVegetationProtectionOverlay_51,lyr_HeritageRegister_52,lyr_WBWaterwaysBuffered_53,],
                                 fold: "open",
                                 title: "NDH Deducted Overlays"});
 var group_NotetoDD = new ol.layer.Group({
@@ -925,7 +940,7 @@ var group_BaseLayer = new ol.layer.Group({
                                 fold: "open",
                                 title: "Base Layer"});
 
-lyr_GoogleMaps_0.setVisible(false);lyr_ESRISatelliteArcGISWorld_Imagery_1.setVisible(true);lyr_C2ZCommercial2Zone_2.setVisible(false);lyr_IN1ZIndustrial1Zone_3.setVisible(false);lyr_IN3ZIndustrial3Zone_4.setVisible(false);lyr_PCRZPublicConservationandResourceZone_5.setVisible(false);lyr_PPRZPublicParkandRecreationZone_6.setVisible(false);lyr_PUZ1PublicUseZoneServiceandUtility_7.setVisible(false);lyr_PUZ2PublicUseZoneEducation_8.setVisible(false);lyr_PUZ5PublicUseZoneCemetery_Crematorium_9.setVisible(false);lyr_PUZ6PublicUseZoneLocalGovernment_10.setVisible(false);lyr_RCZRuralConservationZone_11.setVisible(false);lyr_FZFarmingZone_12.setVisible(false);lyr_TRZ1StateTransportInfrastructure_13.setVisible(false);lyr_TRZ2PrincipalRoadNetwork_14.setVisible(false);lyr_RLZRuralLivingZone_15.setVisible(false);lyr_GRZGeneralResidentialZone_16.setVisible(false);lyr_LDRZLowDensityResidentialZone_17.setVisible(false);lyr_UGZUrbanGrowthZone_18.setVisible(false);lyr_AboriginalCulturalHeritageSensitivity_19.setVisible(false);lyr_RegisteredAboriginalParties_20.setVisible(false);lyr_HeritageInventory_21.setVisible(false);lyr_RecognitionandSettlementAgreement_22.setVisible(false);lyr_AEOAirportEnvironsOverlay_23.setVisible(false);lyr_CLPOCityLinkProjectOverlay_24.setVisible(false);lyr_DCPODevelopmentContributionsPlanOverlay_25.setVisible(false);lyr_DDODesignandDevelopmentOverlay_26.setVisible(false);lyr_DPODevelopmentPlanOverlay_27.setVisible(false);lyr_EAOEnvironmentalAuditOverlay_28.setVisible(false);lyr_EMOErosionManagementOverlay_29.setVisible(false);lyr_ICOInfrastructureContributionsOverlay_30.setVisible(false);lyr_IPOIncorporatedPlanOverlay_31.setVisible(false);lyr_MAEOMelbourneAirportEnvironsOverlay_32.setVisible(false);lyr_NCONeighbourhoodCharacterOverlay_33.setVisible(false);lyr_POParkingOverlay_34.setVisible(false);lyr_PSBProtectedSettlementBoundary_35.setVisible(false);lyr_RFORuralFloodwayOverlay_36.setVisible(false);lyr_SBOSpecialBuildingOverlay_37.setVisible(false);lyr_SCOSpecificControlsOverlay_38.setVisible(false);lyr_SMOSalinityManagementOverlay_39.setVisible(false);lyr_BAOBufferAreaOverlay_40.setVisible(false);lyr_BMOBushfireManagementOverlay_41.setVisible(false);lyr_ESOEnvironmentalSignificanceOverlay_42.setVisible(false);lyr_PAOPublicAcquisitionOverlay_43.setVisible(false);lyr_RORestructureOverlay_44.setVisible(false);lyr_RXORoadClosureOverlay_45.setVisible(false);lyr_SLOSignificantLandscapeOverlay_46.setVisible(false);lyr_SROStateResourceOverlay_47.setVisible(false);lyr_FOFloodwayOverlay_48.setVisible(false);lyr_HOHeritageOverlay_49.setVisible(false);lyr_LSIOLandSubjecttoInundationOverlay_50.setVisible(false);lyr_VPOVegetationProtectionOverlay_51.setVisible(false);lyr_HeritageRegister_52.setVisible(false);lyr_SSP5_53.setVisible(false);lyr_SSP3_54.setVisible(false);lyr_SSP2_55.setVisible(false);lyr_BagshotPrecinctConceptStructurePlan_56.setVisible(true);lyr_LGA_57.setVisible(true);lyr_GreaterBendigoProperties_58.setVisible(true);lyr_Suburb_59.setVisible(true);
+lyr_GoogleMaps_0.setVisible(false);lyr_ESRISatelliteArcGISWorld_Imagery_1.setVisible(true);lyr_C2ZCommercial2Zone_2.setVisible(false);lyr_IN1ZIndustrial1Zone_3.setVisible(false);lyr_IN3ZIndustrial3Zone_4.setVisible(false);lyr_PCRZPublicConservationandResourceZone_5.setVisible(false);lyr_PPRZPublicParkandRecreationZone_6.setVisible(false);lyr_PUZ1PublicUseZoneServiceandUtility_7.setVisible(false);lyr_PUZ2PublicUseZoneEducation_8.setVisible(false);lyr_PUZ5PublicUseZoneCemetery_Crematorium_9.setVisible(false);lyr_PUZ6PublicUseZoneLocalGovernment_10.setVisible(false);lyr_RCZRuralConservationZone_11.setVisible(false);lyr_FZFarmingZone_12.setVisible(false);lyr_TRZ1StateTransportInfrastructure_13.setVisible(false);lyr_TRZ2PrincipalRoadNetwork_14.setVisible(false);lyr_RLZRuralLivingZone_15.setVisible(false);lyr_GRZGeneralResidentialZone_16.setVisible(false);lyr_LDRZLowDensityResidentialZone_17.setVisible(false);lyr_UGZUrbanGrowthZone_18.setVisible(false);lyr_AboriginalCulturalHeritageSensitivity_19.setVisible(false);lyr_RegisteredAboriginalParties_20.setVisible(false);lyr_HeritageInventory_21.setVisible(false);lyr_RecognitionandSettlementAgreement_22.setVisible(false);lyr_AEOAirportEnvironsOverlay_23.setVisible(false);lyr_CLPOCityLinkProjectOverlay_24.setVisible(false);lyr_DCPODevelopmentContributionsPlanOverlay_25.setVisible(false);lyr_DDODesignandDevelopmentOverlay_26.setVisible(false);lyr_DPODevelopmentPlanOverlay_27.setVisible(false);lyr_EAOEnvironmentalAuditOverlay_28.setVisible(false);lyr_EMOErosionManagementOverlay_29.setVisible(false);lyr_ICOInfrastructureContributionsOverlay_30.setVisible(false);lyr_IPOIncorporatedPlanOverlay_31.setVisible(false);lyr_MAEOMelbourneAirportEnvironsOverlay_32.setVisible(false);lyr_NCONeighbourhoodCharacterOverlay_33.setVisible(false);lyr_POParkingOverlay_34.setVisible(false);lyr_PSBProtectedSettlementBoundary_35.setVisible(false);lyr_RFORuralFloodwayOverlay_36.setVisible(false);lyr_SBOSpecialBuildingOverlay_37.setVisible(false);lyr_SCOSpecificControlsOverlay_38.setVisible(false);lyr_SMOSalinityManagementOverlay_39.setVisible(false);lyr_BAOBufferAreaOverlay_40.setVisible(false);lyr_BMOBushfireManagementOverlay_41.setVisible(false);lyr_ESOEnvironmentalSignificanceOverlay_42.setVisible(false);lyr_PAOPublicAcquisitionOverlay_43.setVisible(false);lyr_RORestructureOverlay_44.setVisible(false);lyr_RXORoadClosureOverlay_45.setVisible(false);lyr_SLOSignificantLandscapeOverlay_46.setVisible(false);lyr_SROStateResourceOverlay_47.setVisible(false);lyr_FOFloodwayOverlay_48.setVisible(false);lyr_HOHeritageOverlay_49.setVisible(false);lyr_LSIOLandSubjecttoInundationOverlay_50.setVisible(false);lyr_VPOVegetationProtectionOverlay_51.setVisible(false);lyr_HeritageRegister_52.setVisible(false);lyr_WBWaterwaysBuffered_53.setVisible(false);lyr_SSP5_54.setVisible(false);lyr_SSP3_55.setVisible(false);lyr_SSP2_56.setVisible(false);lyr_BagshotPrecinctConceptStructurePlan_57.setVisible(true);lyr_LGA_58.setVisible(true);lyr_GreaterBendigoProperties_59.setVisible(true);lyr_Suburb_60.setVisible(true);
 var layersList = [group_BaseLayer,group_Zoning,group_OtherOverlays,group_NotetoDD,group_NDHDeductedOverlays,group_SSPFloodScenario20812100,group_StructurePlan,group_Administrative];
 lyr_C2ZCommercial2Zone_2.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
 lyr_IN1ZIndustrial1Zone_3.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
@@ -978,12 +993,13 @@ lyr_HOHeritageOverlay_49.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTI
 lyr_LSIOLandSubjecttoInundationOverlay_50.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
 lyr_VPOVegetationProtectionOverlay_51.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
 lyr_HeritageRegister_52.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'VDPID': 'VDPID', 'UFI': 'UFI', 'HERMES_NUM': 'HERMES_NUM', 'VHR_NUM': 'VHR_NUM', 'VHI_NUM': 'VHI_NUM', 'HERITAGE_O': 'HERITAGE_O', 'SITE_NAME': 'SITE_NAME', 'ID': 'ID', 'UFI_CREATE': 'UFI_CREATE', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_SSP5_53.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_SSP3_54.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_SSP2_55.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_LGA_57.set('fieldAliases', {'LGA_CODE24': 'LGA_CODE24', 'LGA_NAME24': 'LGA_NAME24', 'STE_CODE21': 'STE_CODE21', 'STE_NAME21': 'STE_NAME21', 'AUS_CODE21': 'AUS_CODE21', 'AUS_NAME21': 'AUS_NAME21', 'AREASQKM': 'AREASQKM', 'LOCI_URI21': 'LOCI_URI21', });
-lyr_GreaterBendigoProperties_58.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PROP_PFI': 'PROP_PFI', 'PROP_LGA_CODE': 'PROP_LGA_CODE', 'PROP_PROPNUM': 'PROP_PROPNUM', 'PROP_PROPERTY_TYPE': 'PROP_PROPERTY_TYPE', 'PROP_MULTI_ASSESSMENT': 'PROP_MULTI_ASSESSMENT', 'PROP_STATUS': 'PROP_STATUS', 'ADD_EZI_ADDRESS': 'ADD_EZI_ADDRESS', 'ADD_IS_PRIMARY': 'ADD_IS_PRIMARY', 'ADD_HOUSE_NUMBER_1': 'ADD_HOUSE_NUMBER_1', 'ADD_HOUSE_SUFFIX_1': 'ADD_HOUSE_SUFFIX_1', 'ADD_ROAD_NAME': 'ADD_ROAD_NAME', 'ADD_ROAD_TYPE': 'ADD_ROAD_TYPE', 'ADD_ROAD_SUFFIX': 'ADD_ROAD_SUFFIX', 'ADD_LOCALITY_NAME': 'ADD_LOCALITY_NAME', 'ADD_STATE': 'ADD_STATE', 'ADD_POSTCODE': 'ADD_POSTCODE', 'ADD_NUM_ROAD_ADDRESS': 'ADD_NUM_ROAD_ADDRESS', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', });
-lyr_Suburb_59.set('fieldAliases', {'LC_PLY_PID': 'LC_PLY_PID', 'LOC_PID': 'LOC_PID', 'DT_CREATE': 'DT_CREATE', 'LOC_NAME': 'LOC_NAME', 'LOC_CLASS': 'LOC_CLASS', 'STATE': 'STATE', });
+lyr_WBWaterwaysBuffered_53.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_SSP5_54.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_SSP3_55.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_SSP2_56.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_LGA_58.set('fieldAliases', {'LGA_CODE24': 'LGA_CODE24', 'LGA_NAME24': 'LGA_NAME24', 'STE_CODE21': 'STE_CODE21', 'STE_NAME21': 'STE_NAME21', 'AUS_CODE21': 'AUS_CODE21', 'AUS_NAME21': 'AUS_NAME21', 'AREASQKM': 'AREASQKM', 'LOCI_URI21': 'LOCI_URI21', });
+lyr_GreaterBendigoProperties_59.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PROP_PFI': 'PROP_PFI', 'PROP_LGA_CODE': 'PROP_LGA_CODE', 'PROP_PROPNUM': 'PROP_PROPNUM', 'PROP_PROPERTY_TYPE': 'PROP_PROPERTY_TYPE', 'PROP_MULTI_ASSESSMENT': 'PROP_MULTI_ASSESSMENT', 'PROP_STATUS': 'PROP_STATUS', 'ADD_EZI_ADDRESS': 'ADD_EZI_ADDRESS', 'ADD_IS_PRIMARY': 'ADD_IS_PRIMARY', 'ADD_HOUSE_NUMBER_1': 'ADD_HOUSE_NUMBER_1', 'ADD_HOUSE_SUFFIX_1': 'ADD_HOUSE_SUFFIX_1', 'ADD_ROAD_NAME': 'ADD_ROAD_NAME', 'ADD_ROAD_TYPE': 'ADD_ROAD_TYPE', 'ADD_ROAD_SUFFIX': 'ADD_ROAD_SUFFIX', 'ADD_LOCALITY_NAME': 'ADD_LOCALITY_NAME', 'ADD_STATE': 'ADD_STATE', 'ADD_POSTCODE': 'ADD_POSTCODE', 'ADD_NUM_ROAD_ADDRESS': 'ADD_NUM_ROAD_ADDRESS', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', });
+lyr_Suburb_60.set('fieldAliases', {'LC_PLY_PID': 'LC_PLY_PID', 'LOC_PID': 'LOC_PID', 'DT_CREATE': 'DT_CREATE', 'LOC_NAME': 'LOC_NAME', 'LOC_CLASS': 'LOC_CLASS', 'STATE': 'STATE', });
 lyr_C2ZCommercial2Zone_2.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_IN1ZIndustrial1Zone_3.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_IN3ZIndustrial3Zone_4.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
@@ -1035,12 +1051,13 @@ lyr_HOHeritageOverlay_49.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '
 lyr_LSIOLandSubjecttoInundationOverlay_50.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
 lyr_VPOVegetationProtectionOverlay_51.set('fieldImages', {'fid': '', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_HeritageRegister_52.set('fieldImages', {'fid': '', 'OBJECTID': '', 'VDPID': '', 'UFI': '', 'HERMES_NUM': '', 'VHR_NUM': '', 'VHI_NUM': '', 'HERITAGE_O': '', 'SITE_NAME': '', 'ID': '', 'UFI_CREATE': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SSP5_53.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SSP3_54.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SSP2_55.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_LGA_57.set('fieldImages', {'LGA_CODE24': 'TextEdit', 'LGA_NAME24': 'TextEdit', 'STE_CODE21': 'TextEdit', 'STE_NAME21': 'TextEdit', 'AUS_CODE21': 'TextEdit', 'AUS_NAME21': 'TextEdit', 'AREASQKM': 'TextEdit', 'LOCI_URI21': 'TextEdit', });
-lyr_GreaterBendigoProperties_58.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PROP_PFI': '', 'PROP_LGA_CODE': '', 'PROP_PROPNUM': '', 'PROP_PROPERTY_TYPE': '', 'PROP_MULTI_ASSESSMENT': '', 'PROP_STATUS': '', 'ADD_EZI_ADDRESS': '', 'ADD_IS_PRIMARY': '', 'ADD_HOUSE_NUMBER_1': '', 'ADD_HOUSE_SUFFIX_1': '', 'ADD_ROAD_NAME': '', 'ADD_ROAD_TYPE': '', 'ADD_ROAD_SUFFIX': '', 'ADD_LOCALITY_NAME': '', 'ADD_STATE': '', 'ADD_POSTCODE': '', 'ADD_NUM_ROAD_ADDRESS': '', 'Shape_Length': '', 'Shape_Area': '', });
-lyr_Suburb_59.set('fieldImages', {'LC_PLY_PID': 'TextEdit', 'LOC_PID': 'TextEdit', 'DT_CREATE': 'DateTime', 'LOC_NAME': 'TextEdit', 'LOC_CLASS': 'TextEdit', 'STATE': 'TextEdit', });
+lyr_WBWaterwaysBuffered_53.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_SSP5_54.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_SSP3_55.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_SSP2_56.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_LGA_58.set('fieldImages', {'LGA_CODE24': 'TextEdit', 'LGA_NAME24': 'TextEdit', 'STE_CODE21': 'TextEdit', 'STE_NAME21': 'TextEdit', 'AUS_CODE21': 'TextEdit', 'AUS_NAME21': 'TextEdit', 'AREASQKM': 'TextEdit', 'LOCI_URI21': 'TextEdit', });
+lyr_GreaterBendigoProperties_59.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PROP_PFI': '', 'PROP_LGA_CODE': '', 'PROP_PROPNUM': '', 'PROP_PROPERTY_TYPE': '', 'PROP_MULTI_ASSESSMENT': '', 'PROP_STATUS': '', 'ADD_EZI_ADDRESS': '', 'ADD_IS_PRIMARY': '', 'ADD_HOUSE_NUMBER_1': '', 'ADD_HOUSE_SUFFIX_1': '', 'ADD_ROAD_NAME': '', 'ADD_ROAD_TYPE': '', 'ADD_ROAD_SUFFIX': '', 'ADD_LOCALITY_NAME': '', 'ADD_STATE': '', 'ADD_POSTCODE': '', 'ADD_NUM_ROAD_ADDRESS': '', 'Shape_Length': '', 'Shape_Area': '', });
+lyr_Suburb_60.set('fieldImages', {'LC_PLY_PID': 'TextEdit', 'LOC_PID': 'TextEdit', 'DT_CREATE': 'DateTime', 'LOC_NAME': 'TextEdit', 'LOC_CLASS': 'TextEdit', 'STATE': 'TextEdit', });
 lyr_C2ZCommercial2Zone_2.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_IN1ZIndustrial1Zone_3.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_IN3ZIndustrial3Zone_4.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
@@ -1092,12 +1109,13 @@ lyr_HOHeritageOverlay_49.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 
 lyr_LSIOLandSubjecttoInundationOverlay_50.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_VPOVegetationProtectionOverlay_51.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_HeritageRegister_52.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'VDPID': 'no label', 'UFI': 'no label', 'HERMES_NUM': 'no label', 'VHR_NUM': 'no label', 'VHI_NUM': 'no label', 'HERITAGE_O': 'no label', 'SITE_NAME': 'no label', 'ID': 'no label', 'UFI_CREATE': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_SSP5_53.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'PFI': 'no label', 'SCHEME_COD': 'no label', 'LGA_CODE': 'no label', 'LGA': 'no label', 'ZONE_NUM': 'no label', 'ZONE_STATU': 'no label', 'ZONE_CODE': 'no label', 'ZONE_DESCR': 'no label', 'GAZ_BEGIN_': 'no label', 'PFI_CREATE': 'no label', 'UFI': 'no label', 'UFI_CREATE': 'no label', 'ZONE_CODE_': 'no label', 'ZONE_COD_1': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_SSP3_54.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'PFI': 'no label', 'SCHEME_COD': 'no label', 'LGA_CODE': 'no label', 'LGA': 'no label', 'ZONE_NUM': 'no label', 'ZONE_STATU': 'no label', 'ZONE_CODE': 'no label', 'ZONE_DESCR': 'no label', 'GAZ_BEGIN_': 'no label', 'PFI_CREATE': 'no label', 'UFI': 'no label', 'UFI_CREATE': 'no label', 'ZONE_CODE_': 'no label', 'ZONE_COD_1': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_SSP2_55.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'PFI': 'no label', 'SCHEME_COD': 'no label', 'LGA_CODE': 'no label', 'LGA': 'no label', 'ZONE_NUM': 'no label', 'ZONE_STATU': 'no label', 'ZONE_CODE': 'no label', 'ZONE_DESCR': 'no label', 'GAZ_BEGIN_': 'no label', 'PFI_CREATE': 'no label', 'UFI': 'no label', 'UFI_CREATE': 'no label', 'ZONE_CODE_': 'no label', 'ZONE_COD_1': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_LGA_57.set('fieldLabels', {'LGA_CODE24': 'hidden field', 'LGA_NAME24': 'hidden field', 'STE_CODE21': 'hidden field', 'STE_NAME21': 'hidden field', 'AUS_CODE21': 'hidden field', 'AUS_NAME21': 'hidden field', 'AREASQKM': 'hidden field', 'LOCI_URI21': 'hidden field', });
-lyr_GreaterBendigoProperties_58.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PROP_PFI': 'hidden field', 'PROP_LGA_CODE': 'hidden field', 'PROP_PROPNUM': 'hidden field', 'PROP_PROPERTY_TYPE': 'hidden field', 'PROP_MULTI_ASSESSMENT': 'hidden field', 'PROP_STATUS': 'hidden field', 'ADD_EZI_ADDRESS': 'header label - visible with data', 'ADD_IS_PRIMARY': 'hidden field', 'ADD_HOUSE_NUMBER_1': 'hidden field', 'ADD_HOUSE_SUFFIX_1': 'hidden field', 'ADD_ROAD_NAME': 'hidden field', 'ADD_ROAD_TYPE': 'hidden field', 'ADD_ROAD_SUFFIX': 'hidden field', 'ADD_LOCALITY_NAME': 'hidden field', 'ADD_STATE': 'hidden field', 'ADD_POSTCODE': 'hidden field', 'ADD_NUM_ROAD_ADDRESS': 'hidden field', 'Shape_Length': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_Suburb_59.set('fieldLabels', {'LC_PLY_PID': 'hidden field', 'LOC_PID': 'hidden field', 'DT_CREATE': 'hidden field', 'LOC_NAME': 'hidden field', 'LOC_CLASS': 'hidden field', 'STATE': 'hidden field', });
-lyr_Suburb_59.on('precompose', function(evt) {
+lyr_WBWaterwaysBuffered_53.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_SSP5_54.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_SSP3_55.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_SSP2_56.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_LGA_58.set('fieldLabels', {'LGA_CODE24': 'hidden field', 'LGA_NAME24': 'hidden field', 'STE_CODE21': 'hidden field', 'STE_NAME21': 'hidden field', 'AUS_CODE21': 'hidden field', 'AUS_NAME21': 'hidden field', 'AREASQKM': 'hidden field', 'LOCI_URI21': 'hidden field', });
+lyr_GreaterBendigoProperties_59.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PROP_PFI': 'hidden field', 'PROP_LGA_CODE': 'hidden field', 'PROP_PROPNUM': 'hidden field', 'PROP_PROPERTY_TYPE': 'hidden field', 'PROP_MULTI_ASSESSMENT': 'hidden field', 'PROP_STATUS': 'hidden field', 'ADD_EZI_ADDRESS': 'header label - visible with data', 'ADD_IS_PRIMARY': 'hidden field', 'ADD_HOUSE_NUMBER_1': 'hidden field', 'ADD_HOUSE_SUFFIX_1': 'hidden field', 'ADD_ROAD_NAME': 'hidden field', 'ADD_ROAD_TYPE': 'hidden field', 'ADD_ROAD_SUFFIX': 'hidden field', 'ADD_LOCALITY_NAME': 'hidden field', 'ADD_STATE': 'hidden field', 'ADD_POSTCODE': 'hidden field', 'ADD_NUM_ROAD_ADDRESS': 'hidden field', 'Shape_Length': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_Suburb_60.set('fieldLabels', {'LC_PLY_PID': 'hidden field', 'LOC_PID': 'hidden field', 'DT_CREATE': 'hidden field', 'LOC_NAME': 'hidden field', 'LOC_CLASS': 'hidden field', 'STATE': 'hidden field', });
+lyr_Suburb_60.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
