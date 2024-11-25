@@ -279,656 +279,412 @@ var lyr_UGZUrbanGrowthZone_18 = new ol.layer.Vector({
                 interactive: false,
                 title: '<img src="styles/legend/UGZUrbanGrowthZone_18.png" /> UGZ - Urban Growth Zone'
             });
-var format_AboriginalCulturalHeritageSensitivity_19 = new ol.format.GeoJSON();
-var features_AboriginalCulturalHeritageSensitivity_19 = format_AboriginalCulturalHeritageSensitivity_19.readFeatures(json_AboriginalCulturalHeritageSensitivity_19, 
+var format_BAOBufferAreaOverlay_19 = new ol.format.GeoJSON();
+var features_BAOBufferAreaOverlay_19 = format_BAOBufferAreaOverlay_19.readFeatures(json_BAOBufferAreaOverlay_19, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_AboriginalCulturalHeritageSensitivity_19 = new ol.source.Vector({
+var jsonSource_BAOBufferAreaOverlay_19 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AboriginalCulturalHeritageSensitivity_19.addFeatures(features_AboriginalCulturalHeritageSensitivity_19);
-var lyr_AboriginalCulturalHeritageSensitivity_19 = new ol.layer.Vector({
+jsonSource_BAOBufferAreaOverlay_19.addFeatures(features_BAOBufferAreaOverlay_19);
+var lyr_BAOBufferAreaOverlay_19 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AboriginalCulturalHeritageSensitivity_19, 
-                style: style_AboriginalCulturalHeritageSensitivity_19,
-                popuplayertitle: "Aboriginal Cultural Heritage Sensitivity",
-                interactive: false,
-                title: '<img src="styles/legend/AboriginalCulturalHeritageSensitivity_19.png" /> Aboriginal Cultural Heritage Sensitivity'
-            });
-var format_RegisteredAboriginalParties_20 = new ol.format.GeoJSON();
-var features_RegisteredAboriginalParties_20 = format_RegisteredAboriginalParties_20.readFeatures(json_RegisteredAboriginalParties_20, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_RegisteredAboriginalParties_20 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_RegisteredAboriginalParties_20.addFeatures(features_RegisteredAboriginalParties_20);
-var lyr_RegisteredAboriginalParties_20 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_RegisteredAboriginalParties_20, 
-                style: style_RegisteredAboriginalParties_20,
-                popuplayertitle: "Registered Aboriginal Parties",
-                interactive: false,
-                title: '<img src="styles/legend/RegisteredAboriginalParties_20.png" /> Registered Aboriginal Parties'
-            });
-var format_HeritageInventory_21 = new ol.format.GeoJSON();
-var features_HeritageInventory_21 = format_HeritageInventory_21.readFeatures(json_HeritageInventory_21, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_HeritageInventory_21 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_HeritageInventory_21.addFeatures(features_HeritageInventory_21);
-var lyr_HeritageInventory_21 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_HeritageInventory_21, 
-                style: style_HeritageInventory_21,
-                popuplayertitle: "Heritage Inventory",
-                interactive: false,
-                title: '<img src="styles/legend/HeritageInventory_21.png" /> Heritage Inventory'
-            });
-var format_RecognitionandSettlementAgreement_22 = new ol.format.GeoJSON();
-var features_RecognitionandSettlementAgreement_22 = format_RecognitionandSettlementAgreement_22.readFeatures(json_RecognitionandSettlementAgreement_22, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_RecognitionandSettlementAgreement_22 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_RecognitionandSettlementAgreement_22.addFeatures(features_RecognitionandSettlementAgreement_22);
-var lyr_RecognitionandSettlementAgreement_22 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_RecognitionandSettlementAgreement_22, 
-                style: style_RecognitionandSettlementAgreement_22,
-                popuplayertitle: "Recognition and Settlement Agreement",
-                interactive: false,
-                title: '<img src="styles/legend/RecognitionandSettlementAgreement_22.png" /> Recognition and Settlement Agreement'
-            });
-var format_AEOAirportEnvironsOverlay_23 = new ol.format.GeoJSON();
-var features_AEOAirportEnvironsOverlay_23 = format_AEOAirportEnvironsOverlay_23.readFeatures(json_AEOAirportEnvironsOverlay_23, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_AEOAirportEnvironsOverlay_23 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_AEOAirportEnvironsOverlay_23.addFeatures(features_AEOAirportEnvironsOverlay_23);
-var lyr_AEOAirportEnvironsOverlay_23 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_AEOAirportEnvironsOverlay_23, 
-                style: style_AEOAirportEnvironsOverlay_23,
-                popuplayertitle: "AEO - Airport Environs Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/AEOAirportEnvironsOverlay_23.png" /> AEO - Airport Environs Overlay'
-            });
-var format_CLPOCityLinkProjectOverlay_24 = new ol.format.GeoJSON();
-var features_CLPOCityLinkProjectOverlay_24 = format_CLPOCityLinkProjectOverlay_24.readFeatures(json_CLPOCityLinkProjectOverlay_24, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_CLPOCityLinkProjectOverlay_24 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_CLPOCityLinkProjectOverlay_24.addFeatures(features_CLPOCityLinkProjectOverlay_24);
-var lyr_CLPOCityLinkProjectOverlay_24 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_CLPOCityLinkProjectOverlay_24, 
-                style: style_CLPOCityLinkProjectOverlay_24,
-                popuplayertitle: "CLPO - City Link Project Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/CLPOCityLinkProjectOverlay_24.png" /> CLPO - City Link Project Overlay'
-            });
-var format_DCPODevelopmentContributionsPlanOverlay_25 = new ol.format.GeoJSON();
-var features_DCPODevelopmentContributionsPlanOverlay_25 = format_DCPODevelopmentContributionsPlanOverlay_25.readFeatures(json_DCPODevelopmentContributionsPlanOverlay_25, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_DCPODevelopmentContributionsPlanOverlay_25 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_DCPODevelopmentContributionsPlanOverlay_25.addFeatures(features_DCPODevelopmentContributionsPlanOverlay_25);
-var lyr_DCPODevelopmentContributionsPlanOverlay_25 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_DCPODevelopmentContributionsPlanOverlay_25, 
-                style: style_DCPODevelopmentContributionsPlanOverlay_25,
-                popuplayertitle: "DCPO - Development Contributions Plan Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/DCPODevelopmentContributionsPlanOverlay_25.png" /> DCPO - Development Contributions Plan Overlay'
-            });
-var format_DDODesignandDevelopmentOverlay_26 = new ol.format.GeoJSON();
-var features_DDODesignandDevelopmentOverlay_26 = format_DDODesignandDevelopmentOverlay_26.readFeatures(json_DDODesignandDevelopmentOverlay_26, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_DDODesignandDevelopmentOverlay_26 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_DDODesignandDevelopmentOverlay_26.addFeatures(features_DDODesignandDevelopmentOverlay_26);
-var lyr_DDODesignandDevelopmentOverlay_26 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_DDODesignandDevelopmentOverlay_26, 
-                style: style_DDODesignandDevelopmentOverlay_26,
-                popuplayertitle: "DDO - Design and Development Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/DDODesignandDevelopmentOverlay_26.png" /> DDO - Design and Development Overlay'
-            });
-var format_DPODevelopmentPlanOverlay_27 = new ol.format.GeoJSON();
-var features_DPODevelopmentPlanOverlay_27 = format_DPODevelopmentPlanOverlay_27.readFeatures(json_DPODevelopmentPlanOverlay_27, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_DPODevelopmentPlanOverlay_27 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_DPODevelopmentPlanOverlay_27.addFeatures(features_DPODevelopmentPlanOverlay_27);
-var lyr_DPODevelopmentPlanOverlay_27 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_DPODevelopmentPlanOverlay_27, 
-                style: style_DPODevelopmentPlanOverlay_27,
-                popuplayertitle: "DPO - Development Plan Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/DPODevelopmentPlanOverlay_27.png" /> DPO - Development Plan Overlay'
-            });
-var format_EAOEnvironmentalAuditOverlay_28 = new ol.format.GeoJSON();
-var features_EAOEnvironmentalAuditOverlay_28 = format_EAOEnvironmentalAuditOverlay_28.readFeatures(json_EAOEnvironmentalAuditOverlay_28, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_EAOEnvironmentalAuditOverlay_28 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_EAOEnvironmentalAuditOverlay_28.addFeatures(features_EAOEnvironmentalAuditOverlay_28);
-var lyr_EAOEnvironmentalAuditOverlay_28 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_EAOEnvironmentalAuditOverlay_28, 
-                style: style_EAOEnvironmentalAuditOverlay_28,
-                popuplayertitle: "EAO - Environmental Audit Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/EAOEnvironmentalAuditOverlay_28.png" /> EAO - Environmental Audit Overlay'
-            });
-var format_EMOErosionManagementOverlay_29 = new ol.format.GeoJSON();
-var features_EMOErosionManagementOverlay_29 = format_EMOErosionManagementOverlay_29.readFeatures(json_EMOErosionManagementOverlay_29, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_EMOErosionManagementOverlay_29 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_EMOErosionManagementOverlay_29.addFeatures(features_EMOErosionManagementOverlay_29);
-var lyr_EMOErosionManagementOverlay_29 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_EMOErosionManagementOverlay_29, 
-                style: style_EMOErosionManagementOverlay_29,
-                popuplayertitle: "EMO - Erosion Management Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/EMOErosionManagementOverlay_29.png" /> EMO - Erosion Management Overlay'
-            });
-var format_ICOInfrastructureContributionsOverlay_30 = new ol.format.GeoJSON();
-var features_ICOInfrastructureContributionsOverlay_30 = format_ICOInfrastructureContributionsOverlay_30.readFeatures(json_ICOInfrastructureContributionsOverlay_30, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_ICOInfrastructureContributionsOverlay_30 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_ICOInfrastructureContributionsOverlay_30.addFeatures(features_ICOInfrastructureContributionsOverlay_30);
-var lyr_ICOInfrastructureContributionsOverlay_30 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_ICOInfrastructureContributionsOverlay_30, 
-                style: style_ICOInfrastructureContributionsOverlay_30,
-                popuplayertitle: "ICO - Infrastructure Contributions Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/ICOInfrastructureContributionsOverlay_30.png" /> ICO - Infrastructure Contributions Overlay'
-            });
-var format_IPOIncorporatedPlanOverlay_31 = new ol.format.GeoJSON();
-var features_IPOIncorporatedPlanOverlay_31 = format_IPOIncorporatedPlanOverlay_31.readFeatures(json_IPOIncorporatedPlanOverlay_31, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_IPOIncorporatedPlanOverlay_31 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_IPOIncorporatedPlanOverlay_31.addFeatures(features_IPOIncorporatedPlanOverlay_31);
-var lyr_IPOIncorporatedPlanOverlay_31 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_IPOIncorporatedPlanOverlay_31, 
-                style: style_IPOIncorporatedPlanOverlay_31,
-                popuplayertitle: "IPO - Incorporated Plan Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/IPOIncorporatedPlanOverlay_31.png" /> IPO - Incorporated Plan Overlay'
-            });
-var format_MAEOMelbourneAirportEnvironsOverlay_32 = new ol.format.GeoJSON();
-var features_MAEOMelbourneAirportEnvironsOverlay_32 = format_MAEOMelbourneAirportEnvironsOverlay_32.readFeatures(json_MAEOMelbourneAirportEnvironsOverlay_32, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_MAEOMelbourneAirportEnvironsOverlay_32 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_MAEOMelbourneAirportEnvironsOverlay_32.addFeatures(features_MAEOMelbourneAirportEnvironsOverlay_32);
-var lyr_MAEOMelbourneAirportEnvironsOverlay_32 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_MAEOMelbourneAirportEnvironsOverlay_32, 
-                style: style_MAEOMelbourneAirportEnvironsOverlay_32,
-                popuplayertitle: "MAEO - Melbourne Airport Environs Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/MAEOMelbourneAirportEnvironsOverlay_32.png" /> MAEO - Melbourne Airport Environs Overlay'
-            });
-var format_NCONeighbourhoodCharacterOverlay_33 = new ol.format.GeoJSON();
-var features_NCONeighbourhoodCharacterOverlay_33 = format_NCONeighbourhoodCharacterOverlay_33.readFeatures(json_NCONeighbourhoodCharacterOverlay_33, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_NCONeighbourhoodCharacterOverlay_33 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_NCONeighbourhoodCharacterOverlay_33.addFeatures(features_NCONeighbourhoodCharacterOverlay_33);
-var lyr_NCONeighbourhoodCharacterOverlay_33 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_NCONeighbourhoodCharacterOverlay_33, 
-                style: style_NCONeighbourhoodCharacterOverlay_33,
-                popuplayertitle: "NCO - Neighbourhood Character Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/NCONeighbourhoodCharacterOverlay_33.png" /> NCO - Neighbourhood Character Overlay'
-            });
-var format_POParkingOverlay_34 = new ol.format.GeoJSON();
-var features_POParkingOverlay_34 = format_POParkingOverlay_34.readFeatures(json_POParkingOverlay_34, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_POParkingOverlay_34 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_POParkingOverlay_34.addFeatures(features_POParkingOverlay_34);
-var lyr_POParkingOverlay_34 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_POParkingOverlay_34, 
-                style: style_POParkingOverlay_34,
-                popuplayertitle: "PO - Parking Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/POParkingOverlay_34.png" /> PO - Parking Overlay'
-            });
-var format_PSBProtectedSettlementBoundary_35 = new ol.format.GeoJSON();
-var features_PSBProtectedSettlementBoundary_35 = format_PSBProtectedSettlementBoundary_35.readFeatures(json_PSBProtectedSettlementBoundary_35, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_PSBProtectedSettlementBoundary_35 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_PSBProtectedSettlementBoundary_35.addFeatures(features_PSBProtectedSettlementBoundary_35);
-var lyr_PSBProtectedSettlementBoundary_35 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_PSBProtectedSettlementBoundary_35, 
-                style: style_PSBProtectedSettlementBoundary_35,
-                popuplayertitle: "PSB - Protected Settlement Boundary",
-                interactive: false,
-                title: '<img src="styles/legend/PSBProtectedSettlementBoundary_35.png" /> PSB - Protected Settlement Boundary'
-            });
-var format_RFORuralFloodwayOverlay_36 = new ol.format.GeoJSON();
-var features_RFORuralFloodwayOverlay_36 = format_RFORuralFloodwayOverlay_36.readFeatures(json_RFORuralFloodwayOverlay_36, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_RFORuralFloodwayOverlay_36 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_RFORuralFloodwayOverlay_36.addFeatures(features_RFORuralFloodwayOverlay_36);
-var lyr_RFORuralFloodwayOverlay_36 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_RFORuralFloodwayOverlay_36, 
-                style: style_RFORuralFloodwayOverlay_36,
-                popuplayertitle: "RFO - Rural Floodway Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/RFORuralFloodwayOverlay_36.png" /> RFO - Rural Floodway Overlay'
-            });
-var format_SBOSpecialBuildingOverlay_37 = new ol.format.GeoJSON();
-var features_SBOSpecialBuildingOverlay_37 = format_SBOSpecialBuildingOverlay_37.readFeatures(json_SBOSpecialBuildingOverlay_37, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SBOSpecialBuildingOverlay_37 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_SBOSpecialBuildingOverlay_37.addFeatures(features_SBOSpecialBuildingOverlay_37);
-var lyr_SBOSpecialBuildingOverlay_37 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_SBOSpecialBuildingOverlay_37, 
-                style: style_SBOSpecialBuildingOverlay_37,
-                popuplayertitle: "SBO - Special Building Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/SBOSpecialBuildingOverlay_37.png" /> SBO - Special Building Overlay'
-            });
-var format_SCOSpecificControlsOverlay_38 = new ol.format.GeoJSON();
-var features_SCOSpecificControlsOverlay_38 = format_SCOSpecificControlsOverlay_38.readFeatures(json_SCOSpecificControlsOverlay_38, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SCOSpecificControlsOverlay_38 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_SCOSpecificControlsOverlay_38.addFeatures(features_SCOSpecificControlsOverlay_38);
-var lyr_SCOSpecificControlsOverlay_38 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_SCOSpecificControlsOverlay_38, 
-                style: style_SCOSpecificControlsOverlay_38,
-                popuplayertitle: "SCO - Specific Controls Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/SCOSpecificControlsOverlay_38.png" /> SCO - Specific Controls Overlay'
-            });
-var format_SMOSalinityManagementOverlay_39 = new ol.format.GeoJSON();
-var features_SMOSalinityManagementOverlay_39 = format_SMOSalinityManagementOverlay_39.readFeatures(json_SMOSalinityManagementOverlay_39, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SMOSalinityManagementOverlay_39 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_SMOSalinityManagementOverlay_39.addFeatures(features_SMOSalinityManagementOverlay_39);
-var lyr_SMOSalinityManagementOverlay_39 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_SMOSalinityManagementOverlay_39, 
-                style: style_SMOSalinityManagementOverlay_39,
-                popuplayertitle: "SMO - Salinity Management Overlay",
-                interactive: false,
-                title: '<img src="styles/legend/SMOSalinityManagementOverlay_39.png" /> SMO - Salinity Management Overlay'
-            });
-var format_BAOBufferAreaOverlay_40 = new ol.format.GeoJSON();
-var features_BAOBufferAreaOverlay_40 = format_BAOBufferAreaOverlay_40.readFeatures(json_BAOBufferAreaOverlay_40, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_BAOBufferAreaOverlay_40 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_BAOBufferAreaOverlay_40.addFeatures(features_BAOBufferAreaOverlay_40);
-var lyr_BAOBufferAreaOverlay_40 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_BAOBufferAreaOverlay_40, 
-                style: style_BAOBufferAreaOverlay_40,
+                source:jsonSource_BAOBufferAreaOverlay_19, 
+                style: style_BAOBufferAreaOverlay_19,
                 popuplayertitle: "BAO - Buffer Area Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/BAOBufferAreaOverlay_40.png" /> BAO - Buffer Area Overlay'
+                title: '<img src="styles/legend/BAOBufferAreaOverlay_19.png" /> BAO - Buffer Area Overlay'
             });
-var format_BMOBushfireManagementOverlay_41 = new ol.format.GeoJSON();
-var features_BMOBushfireManagementOverlay_41 = format_BMOBushfireManagementOverlay_41.readFeatures(json_BMOBushfireManagementOverlay_41, 
+var format_BMOBushfireManagementOverlay_20 = new ol.format.GeoJSON();
+var features_BMOBushfireManagementOverlay_20 = format_BMOBushfireManagementOverlay_20.readFeatures(json_BMOBushfireManagementOverlay_20, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_BMOBushfireManagementOverlay_41 = new ol.source.Vector({
+var jsonSource_BMOBushfireManagementOverlay_20 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_BMOBushfireManagementOverlay_41.addFeatures(features_BMOBushfireManagementOverlay_41);
-var lyr_BMOBushfireManagementOverlay_41 = new ol.layer.Vector({
+jsonSource_BMOBushfireManagementOverlay_20.addFeatures(features_BMOBushfireManagementOverlay_20);
+var lyr_BMOBushfireManagementOverlay_20 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_BMOBushfireManagementOverlay_41, 
-                style: style_BMOBushfireManagementOverlay_41,
+                source:jsonSource_BMOBushfireManagementOverlay_20, 
+                style: style_BMOBushfireManagementOverlay_20,
                 popuplayertitle: "BMO - Bushfire Management Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/BMOBushfireManagementOverlay_41.png" /> BMO - Bushfire Management Overlay'
+                title: '<img src="styles/legend/BMOBushfireManagementOverlay_20.png" /> BMO - Bushfire Management Overlay'
             });
-var format_ESOEnvironmentalSignificanceOverlay_42 = new ol.format.GeoJSON();
-var features_ESOEnvironmentalSignificanceOverlay_42 = format_ESOEnvironmentalSignificanceOverlay_42.readFeatures(json_ESOEnvironmentalSignificanceOverlay_42, 
+var format_ESOEnvironmentalSignificanceOverlay_21 = new ol.format.GeoJSON();
+var features_ESOEnvironmentalSignificanceOverlay_21 = format_ESOEnvironmentalSignificanceOverlay_21.readFeatures(json_ESOEnvironmentalSignificanceOverlay_21, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_ESOEnvironmentalSignificanceOverlay_42 = new ol.source.Vector({
+var jsonSource_ESOEnvironmentalSignificanceOverlay_21 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ESOEnvironmentalSignificanceOverlay_42.addFeatures(features_ESOEnvironmentalSignificanceOverlay_42);
-var lyr_ESOEnvironmentalSignificanceOverlay_42 = new ol.layer.Vector({
+jsonSource_ESOEnvironmentalSignificanceOverlay_21.addFeatures(features_ESOEnvironmentalSignificanceOverlay_21);
+var lyr_ESOEnvironmentalSignificanceOverlay_21 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ESOEnvironmentalSignificanceOverlay_42, 
-                style: style_ESOEnvironmentalSignificanceOverlay_42,
+                source:jsonSource_ESOEnvironmentalSignificanceOverlay_21, 
+                style: style_ESOEnvironmentalSignificanceOverlay_21,
                 popuplayertitle: "ESO - Environmental Significance Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/ESOEnvironmentalSignificanceOverlay_42.png" /> ESO - Environmental Significance Overlay'
+                title: '<img src="styles/legend/ESOEnvironmentalSignificanceOverlay_21.png" /> ESO - Environmental Significance Overlay'
             });
-var format_PAOPublicAcquisitionOverlay_43 = new ol.format.GeoJSON();
-var features_PAOPublicAcquisitionOverlay_43 = format_PAOPublicAcquisitionOverlay_43.readFeatures(json_PAOPublicAcquisitionOverlay_43, 
+var format_PAOPublicAcquisitionOverlay_22 = new ol.format.GeoJSON();
+var features_PAOPublicAcquisitionOverlay_22 = format_PAOPublicAcquisitionOverlay_22.readFeatures(json_PAOPublicAcquisitionOverlay_22, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_PAOPublicAcquisitionOverlay_43 = new ol.source.Vector({
+var jsonSource_PAOPublicAcquisitionOverlay_22 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PAOPublicAcquisitionOverlay_43.addFeatures(features_PAOPublicAcquisitionOverlay_43);
-var lyr_PAOPublicAcquisitionOverlay_43 = new ol.layer.Vector({
+jsonSource_PAOPublicAcquisitionOverlay_22.addFeatures(features_PAOPublicAcquisitionOverlay_22);
+var lyr_PAOPublicAcquisitionOverlay_22 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PAOPublicAcquisitionOverlay_43, 
-                style: style_PAOPublicAcquisitionOverlay_43,
+                source:jsonSource_PAOPublicAcquisitionOverlay_22, 
+                style: style_PAOPublicAcquisitionOverlay_22,
                 popuplayertitle: "PAO - Public Acquisition Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/PAOPublicAcquisitionOverlay_43.png" /> PAO - Public Acquisition Overlay'
+                title: '<img src="styles/legend/PAOPublicAcquisitionOverlay_22.png" /> PAO - Public Acquisition Overlay'
             });
-var format_RORestructureOverlay_44 = new ol.format.GeoJSON();
-var features_RORestructureOverlay_44 = format_RORestructureOverlay_44.readFeatures(json_RORestructureOverlay_44, 
+var format_RORestructureOverlay_23 = new ol.format.GeoJSON();
+var features_RORestructureOverlay_23 = format_RORestructureOverlay_23.readFeatures(json_RORestructureOverlay_23, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_RORestructureOverlay_44 = new ol.source.Vector({
+var jsonSource_RORestructureOverlay_23 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RORestructureOverlay_44.addFeatures(features_RORestructureOverlay_44);
-var lyr_RORestructureOverlay_44 = new ol.layer.Vector({
+jsonSource_RORestructureOverlay_23.addFeatures(features_RORestructureOverlay_23);
+var lyr_RORestructureOverlay_23 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RORestructureOverlay_44, 
-                style: style_RORestructureOverlay_44,
+                source:jsonSource_RORestructureOverlay_23, 
+                style: style_RORestructureOverlay_23,
                 popuplayertitle: "RO - Restructure Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/RORestructureOverlay_44.png" /> RO - Restructure Overlay'
+                title: '<img src="styles/legend/RORestructureOverlay_23.png" /> RO - Restructure Overlay'
             });
-var format_RXORoadClosureOverlay_45 = new ol.format.GeoJSON();
-var features_RXORoadClosureOverlay_45 = format_RXORoadClosureOverlay_45.readFeatures(json_RXORoadClosureOverlay_45, 
+var format_RXORoadClosureOverlay_24 = new ol.format.GeoJSON();
+var features_RXORoadClosureOverlay_24 = format_RXORoadClosureOverlay_24.readFeatures(json_RXORoadClosureOverlay_24, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_RXORoadClosureOverlay_45 = new ol.source.Vector({
+var jsonSource_RXORoadClosureOverlay_24 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RXORoadClosureOverlay_45.addFeatures(features_RXORoadClosureOverlay_45);
-var lyr_RXORoadClosureOverlay_45 = new ol.layer.Vector({
+jsonSource_RXORoadClosureOverlay_24.addFeatures(features_RXORoadClosureOverlay_24);
+var lyr_RXORoadClosureOverlay_24 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RXORoadClosureOverlay_45, 
-                style: style_RXORoadClosureOverlay_45,
+                source:jsonSource_RXORoadClosureOverlay_24, 
+                style: style_RXORoadClosureOverlay_24,
                 popuplayertitle: "RXO - Road Closure Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/RXORoadClosureOverlay_45.png" /> RXO - Road Closure Overlay'
+                title: '<img src="styles/legend/RXORoadClosureOverlay_24.png" /> RXO - Road Closure Overlay'
             });
-var format_SLOSignificantLandscapeOverlay_46 = new ol.format.GeoJSON();
-var features_SLOSignificantLandscapeOverlay_46 = format_SLOSignificantLandscapeOverlay_46.readFeatures(json_SLOSignificantLandscapeOverlay_46, 
+var format_SLOSignificantLandscapeOverlay_25 = new ol.format.GeoJSON();
+var features_SLOSignificantLandscapeOverlay_25 = format_SLOSignificantLandscapeOverlay_25.readFeatures(json_SLOSignificantLandscapeOverlay_25, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SLOSignificantLandscapeOverlay_46 = new ol.source.Vector({
+var jsonSource_SLOSignificantLandscapeOverlay_25 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SLOSignificantLandscapeOverlay_46.addFeatures(features_SLOSignificantLandscapeOverlay_46);
-var lyr_SLOSignificantLandscapeOverlay_46 = new ol.layer.Vector({
+jsonSource_SLOSignificantLandscapeOverlay_25.addFeatures(features_SLOSignificantLandscapeOverlay_25);
+var lyr_SLOSignificantLandscapeOverlay_25 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SLOSignificantLandscapeOverlay_46, 
-                style: style_SLOSignificantLandscapeOverlay_46,
+                source:jsonSource_SLOSignificantLandscapeOverlay_25, 
+                style: style_SLOSignificantLandscapeOverlay_25,
                 popuplayertitle: "SLO - Significant Landscape Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/SLOSignificantLandscapeOverlay_46.png" /> SLO - Significant Landscape Overlay'
+                title: '<img src="styles/legend/SLOSignificantLandscapeOverlay_25.png" /> SLO - Significant Landscape Overlay'
             });
-var format_SROStateResourceOverlay_47 = new ol.format.GeoJSON();
-var features_SROStateResourceOverlay_47 = format_SROStateResourceOverlay_47.readFeatures(json_SROStateResourceOverlay_47, 
+var format_SROStateResourceOverlay_26 = new ol.format.GeoJSON();
+var features_SROStateResourceOverlay_26 = format_SROStateResourceOverlay_26.readFeatures(json_SROStateResourceOverlay_26, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SROStateResourceOverlay_47 = new ol.source.Vector({
+var jsonSource_SROStateResourceOverlay_26 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SROStateResourceOverlay_47.addFeatures(features_SROStateResourceOverlay_47);
-var lyr_SROStateResourceOverlay_47 = new ol.layer.Vector({
+jsonSource_SROStateResourceOverlay_26.addFeatures(features_SROStateResourceOverlay_26);
+var lyr_SROStateResourceOverlay_26 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SROStateResourceOverlay_47, 
-                style: style_SROStateResourceOverlay_47,
+                source:jsonSource_SROStateResourceOverlay_26, 
+                style: style_SROStateResourceOverlay_26,
                 popuplayertitle: "SRO - State Resource Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/SROStateResourceOverlay_47.png" /> SRO - State Resource Overlay'
+                title: '<img src="styles/legend/SROStateResourceOverlay_26.png" /> SRO - State Resource Overlay'
             });
-var format_FOFloodwayOverlay_48 = new ol.format.GeoJSON();
-var features_FOFloodwayOverlay_48 = format_FOFloodwayOverlay_48.readFeatures(json_FOFloodwayOverlay_48, 
+var format_FOFloodwayOverlay_27 = new ol.format.GeoJSON();
+var features_FOFloodwayOverlay_27 = format_FOFloodwayOverlay_27.readFeatures(json_FOFloodwayOverlay_27, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_FOFloodwayOverlay_48 = new ol.source.Vector({
+var jsonSource_FOFloodwayOverlay_27 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FOFloodwayOverlay_48.addFeatures(features_FOFloodwayOverlay_48);
-var lyr_FOFloodwayOverlay_48 = new ol.layer.Vector({
+jsonSource_FOFloodwayOverlay_27.addFeatures(features_FOFloodwayOverlay_27);
+var lyr_FOFloodwayOverlay_27 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FOFloodwayOverlay_48, 
-                style: style_FOFloodwayOverlay_48,
+                source:jsonSource_FOFloodwayOverlay_27, 
+                style: style_FOFloodwayOverlay_27,
                 popuplayertitle: "FO - Floodway Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/FOFloodwayOverlay_48.png" /> FO - Floodway Overlay'
+                title: '<img src="styles/legend/FOFloodwayOverlay_27.png" /> FO - Floodway Overlay'
             });
-var format_HOHeritageOverlay_49 = new ol.format.GeoJSON();
-var features_HOHeritageOverlay_49 = format_HOHeritageOverlay_49.readFeatures(json_HOHeritageOverlay_49, 
+var format_HOHeritageOverlay_28 = new ol.format.GeoJSON();
+var features_HOHeritageOverlay_28 = format_HOHeritageOverlay_28.readFeatures(json_HOHeritageOverlay_28, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_HOHeritageOverlay_49 = new ol.source.Vector({
+var jsonSource_HOHeritageOverlay_28 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_HOHeritageOverlay_49.addFeatures(features_HOHeritageOverlay_49);
-var lyr_HOHeritageOverlay_49 = new ol.layer.Vector({
+jsonSource_HOHeritageOverlay_28.addFeatures(features_HOHeritageOverlay_28);
+var lyr_HOHeritageOverlay_28 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_HOHeritageOverlay_49, 
-                style: style_HOHeritageOverlay_49,
+                source:jsonSource_HOHeritageOverlay_28, 
+                style: style_HOHeritageOverlay_28,
                 popuplayertitle: "HO - Heritage Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/HOHeritageOverlay_49.png" /> HO - Heritage Overlay'
+                title: '<img src="styles/legend/HOHeritageOverlay_28.png" /> HO - Heritage Overlay'
             });
-var format_LSIOLandSubjecttoInundationOverlay_50 = new ol.format.GeoJSON();
-var features_LSIOLandSubjecttoInundationOverlay_50 = format_LSIOLandSubjecttoInundationOverlay_50.readFeatures(json_LSIOLandSubjecttoInundationOverlay_50, 
+var format_LSIOLandSubjecttoInundationOverlay_29 = new ol.format.GeoJSON();
+var features_LSIOLandSubjecttoInundationOverlay_29 = format_LSIOLandSubjecttoInundationOverlay_29.readFeatures(json_LSIOLandSubjecttoInundationOverlay_29, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LSIOLandSubjecttoInundationOverlay_50 = new ol.source.Vector({
+var jsonSource_LSIOLandSubjecttoInundationOverlay_29 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LSIOLandSubjecttoInundationOverlay_50.addFeatures(features_LSIOLandSubjecttoInundationOverlay_50);
-var lyr_LSIOLandSubjecttoInundationOverlay_50 = new ol.layer.Vector({
+jsonSource_LSIOLandSubjecttoInundationOverlay_29.addFeatures(features_LSIOLandSubjecttoInundationOverlay_29);
+var lyr_LSIOLandSubjecttoInundationOverlay_29 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LSIOLandSubjecttoInundationOverlay_50, 
-                style: style_LSIOLandSubjecttoInundationOverlay_50,
+                source:jsonSource_LSIOLandSubjecttoInundationOverlay_29, 
+                style: style_LSIOLandSubjecttoInundationOverlay_29,
                 popuplayertitle: "LSIO - Land Subject to Inundation Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/LSIOLandSubjecttoInundationOverlay_50.png" /> LSIO - Land Subject to Inundation Overlay'
+                title: '<img src="styles/legend/LSIOLandSubjecttoInundationOverlay_29.png" /> LSIO - Land Subject to Inundation Overlay'
             });
-var format_VPOVegetationProtectionOverlay_51 = new ol.format.GeoJSON();
-var features_VPOVegetationProtectionOverlay_51 = format_VPOVegetationProtectionOverlay_51.readFeatures(json_VPOVegetationProtectionOverlay_51, 
+var format_VPOVegetationProtectionOverlay_30 = new ol.format.GeoJSON();
+var features_VPOVegetationProtectionOverlay_30 = format_VPOVegetationProtectionOverlay_30.readFeatures(json_VPOVegetationProtectionOverlay_30, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_VPOVegetationProtectionOverlay_51 = new ol.source.Vector({
+var jsonSource_VPOVegetationProtectionOverlay_30 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_VPOVegetationProtectionOverlay_51.addFeatures(features_VPOVegetationProtectionOverlay_51);
-var lyr_VPOVegetationProtectionOverlay_51 = new ol.layer.Vector({
+jsonSource_VPOVegetationProtectionOverlay_30.addFeatures(features_VPOVegetationProtectionOverlay_30);
+var lyr_VPOVegetationProtectionOverlay_30 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_VPOVegetationProtectionOverlay_51, 
-                style: style_VPOVegetationProtectionOverlay_51,
+                source:jsonSource_VPOVegetationProtectionOverlay_30, 
+                style: style_VPOVegetationProtectionOverlay_30,
                 popuplayertitle: "VPO - Vegetation Protection Overlay",
                 interactive: false,
-                title: '<img src="styles/legend/VPOVegetationProtectionOverlay_51.png" /> VPO - Vegetation Protection Overlay'
+                title: '<img src="styles/legend/VPOVegetationProtectionOverlay_30.png" /> VPO - Vegetation Protection Overlay'
             });
-var format_HeritageRegister_52 = new ol.format.GeoJSON();
-var features_HeritageRegister_52 = format_HeritageRegister_52.readFeatures(json_HeritageRegister_52, 
+var format_HeritageRegister_31 = new ol.format.GeoJSON();
+var features_HeritageRegister_31 = format_HeritageRegister_31.readFeatures(json_HeritageRegister_31, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_HeritageRegister_52 = new ol.source.Vector({
+var jsonSource_HeritageRegister_31 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_HeritageRegister_52.addFeatures(features_HeritageRegister_52);
-var lyr_HeritageRegister_52 = new ol.layer.Vector({
+jsonSource_HeritageRegister_31.addFeatures(features_HeritageRegister_31);
+var lyr_HeritageRegister_31 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_HeritageRegister_52, 
-                style: style_HeritageRegister_52,
+                source:jsonSource_HeritageRegister_31, 
+                style: style_HeritageRegister_31,
                 popuplayertitle: "Heritage Register",
                 interactive: false,
-                title: '<img src="styles/legend/HeritageRegister_52.png" /> Heritage Register'
+                title: '<img src="styles/legend/HeritageRegister_31.png" /> Heritage Register'
             });
-var format_WBWaterwaysBuffered_53 = new ol.format.GeoJSON();
-var features_WBWaterwaysBuffered_53 = format_WBWaterwaysBuffered_53.readFeatures(json_WBWaterwaysBuffered_53, 
+var format_WBWaterwaysBuffered_32 = new ol.format.GeoJSON();
+var features_WBWaterwaysBuffered_32 = format_WBWaterwaysBuffered_32.readFeatures(json_WBWaterwaysBuffered_32, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_WBWaterwaysBuffered_53 = new ol.source.Vector({
+var jsonSource_WBWaterwaysBuffered_32 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_WBWaterwaysBuffered_53.addFeatures(features_WBWaterwaysBuffered_53);
-var lyr_WBWaterwaysBuffered_53 = new ol.layer.Vector({
+jsonSource_WBWaterwaysBuffered_32.addFeatures(features_WBWaterwaysBuffered_32);
+var lyr_WBWaterwaysBuffered_32 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_WBWaterwaysBuffered_53, 
-                style: style_WBWaterwaysBuffered_53,
+                source:jsonSource_WBWaterwaysBuffered_32, 
+                style: style_WBWaterwaysBuffered_32,
                 popuplayertitle: "WB - Waterways Buffered",
                 interactive: false,
-                title: '<img src="styles/legend/WBWaterwaysBuffered_53.png" /> WB - Waterways Buffered'
+                title: '<img src="styles/legend/WBWaterwaysBuffered_32.png" /> WB - Waterways Buffered'
             });
-var format_SSP5_54 = new ol.format.GeoJSON();
-var features_SSP5_54 = format_SSP5_54.readFeatures(json_SSP5_54, 
+var format_SSP5_33 = new ol.format.GeoJSON();
+var features_SSP5_33 = format_SSP5_33.readFeatures(json_SSP5_33, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SSP5_54 = new ol.source.Vector({
+var jsonSource_SSP5_33 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SSP5_54.addFeatures(features_SSP5_54);
-var lyr_SSP5_54 = new ol.layer.Vector({
+jsonSource_SSP5_33.addFeatures(features_SSP5_33);
+var lyr_SSP5_33 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SSP5_54, 
-                style: style_SSP5_54,
+                source:jsonSource_SSP5_33, 
+                style: style_SSP5_33,
                 popuplayertitle: "SSP 5",
                 interactive: false,
-                title: '<img src="styles/legend/SSP5_54.png" /> SSP 5'
+                title: '<img src="styles/legend/SSP5_33.png" /> SSP 5'
             });
-var format_SSP3_55 = new ol.format.GeoJSON();
-var features_SSP3_55 = format_SSP3_55.readFeatures(json_SSP3_55, 
+var format_SSP3_34 = new ol.format.GeoJSON();
+var features_SSP3_34 = format_SSP3_34.readFeatures(json_SSP3_34, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SSP3_55 = new ol.source.Vector({
+var jsonSource_SSP3_34 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SSP3_55.addFeatures(features_SSP3_55);
-var lyr_SSP3_55 = new ol.layer.Vector({
+jsonSource_SSP3_34.addFeatures(features_SSP3_34);
+var lyr_SSP3_34 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SSP3_55, 
-                style: style_SSP3_55,
+                source:jsonSource_SSP3_34, 
+                style: style_SSP3_34,
                 popuplayertitle: "SSP 3",
                 interactive: false,
-                title: '<img src="styles/legend/SSP3_55.png" /> SSP 3'
+                title: '<img src="styles/legend/SSP3_34.png" /> SSP 3'
             });
-var format_SSP2_56 = new ol.format.GeoJSON();
-var features_SSP2_56 = format_SSP2_56.readFeatures(json_SSP2_56, 
+var format_SSP2_35 = new ol.format.GeoJSON();
+var features_SSP2_35 = format_SSP2_35.readFeatures(json_SSP2_35, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_SSP2_56 = new ol.source.Vector({
+var jsonSource_SSP2_35 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SSP2_56.addFeatures(features_SSP2_56);
-var lyr_SSP2_56 = new ol.layer.Vector({
+jsonSource_SSP2_35.addFeatures(features_SSP2_35);
+var lyr_SSP2_35 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SSP2_56, 
-                style: style_SSP2_56,
+                source:jsonSource_SSP2_35, 
+                style: style_SSP2_35,
                 popuplayertitle: "SSP 2",
                 interactive: false,
-                title: '<img src="styles/legend/SSP2_56.png" /> SSP 2'
+                title: '<img src="styles/legend/SSP2_35.png" /> SSP 2'
             });
-var lyr_BagshotPrecinctConceptStructurePlan_57 = new ol.layer.Image({
+var format_DCPODevelopmentContributionsPlanOverlay_36 = new ol.format.GeoJSON();
+var features_DCPODevelopmentContributionsPlanOverlay_36 = format_DCPODevelopmentContributionsPlanOverlay_36.readFeatures(json_DCPODevelopmentContributionsPlanOverlay_36, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_DCPODevelopmentContributionsPlanOverlay_36 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_DCPODevelopmentContributionsPlanOverlay_36.addFeatures(features_DCPODevelopmentContributionsPlanOverlay_36);
+var lyr_DCPODevelopmentContributionsPlanOverlay_36 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_DCPODevelopmentContributionsPlanOverlay_36, 
+                style: style_DCPODevelopmentContributionsPlanOverlay_36,
+                popuplayertitle: "DCPO - Development Contributions Plan Overlay",
+                interactive: false,
+                title: '<img src="styles/legend/DCPODevelopmentContributionsPlanOverlay_36.png" /> DCPO - Development Contributions Plan Overlay'
+            });
+var lyr_DCPArea_37 = new ol.layer.Image({
+                            opacity: 1,
+                            title: "DCP Area",
+                            
+                            
+                            source: new ol.source.ImageStatic({
+                               url: "./layers/DCPArea_37.png",
+    attributions: ' ',
+                                projection: 'EPSG:3857',
+                                alwaysInRange: true,
+                                imageExtent: [16067866.505925, -4393120.008022, 16071183.782667, -4391147.164738]
+                            })
+                        });
+var lyr_HuntlyDCPStructure_38 = new ol.layer.Image({
+                            opacity: 1,
+                            title: "Huntly DCP Structure",
+                            
+                            
+                            source: new ol.source.ImageStatic({
+                               url: "./layers/HuntlyDCPStructure_38.png",
+    attributions: ' ',
+                                projection: 'EPSG:3857',
+                                alwaysInRange: true,
+                                imageExtent: [16067286.574507, -4393188.656366, 16071246.879428, -4390690.100797]
+                            })
+                        });
+var lyr_DCPInfrastructureProjects_39 = new ol.layer.Image({
+                            opacity: 1,
+                            title: "DCP Infrastructure Projects",
+                            
+                            
+                            source: new ol.source.ImageStatic({
+                               url: "./layers/DCPInfrastructureProjects_39.png",
+    attributions: ' ',
+                                projection: 'EPSG:3857',
+                                alwaysInRange: true,
+                                imageExtent: [16067287.579112, -4393191.338029, 16071247.427297, -4390689.256252]
+                            })
+                        });
+var lyr_HuntlyDCPLandUGZLandandHuntlyWestArea_40 = new ol.layer.Image({
+                            opacity: 1,
+                            title: "Huntly DCP Land, UGZ Land and Huntly West Area",
+                            
+                            
+                            source: new ol.source.ImageStatic({
+                               url: "./layers/HuntlyDCPLandUGZLandandHuntlyWestArea_40.png",
+    attributions: ' ',
+                                projection: 'EPSG:3857',
+                                alwaysInRange: true,
+                                imageExtent: [16066924.277670, -4393537.392398, 16071478.219030, -4391014.232711]
+                            })
+                        });
+var lyr_BagshotPrecinctConceptStructurePlan_41 = new ol.layer.Image({
                             opacity: 1,
                             title: "Bagshot Precinct Concept Structure Plan",
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/BagshotPrecinctConceptStructurePlan_57.png",
+                               url: "./layers/BagshotPrecinctConceptStructurePlan_41.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
                                 imageExtent: [16069919.504875, -4394514.728123, 16072530.017845, -4391267.477228]
                             })
                         });
-var format_LGA_58 = new ol.format.GeoJSON();
-var features_LGA_58 = format_LGA_58.readFeatures(json_LGA_58, 
+var format_LGA_42 = new ol.format.GeoJSON();
+var features_LGA_42 = format_LGA_42.readFeatures(json_LGA_42, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LGA_58 = new ol.source.Vector({
+var jsonSource_LGA_42 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LGA_58.addFeatures(features_LGA_58);
-var lyr_LGA_58 = new ol.layer.Vector({
+jsonSource_LGA_42.addFeatures(features_LGA_42);
+var lyr_LGA_42 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LGA_58, 
-                style: style_LGA_58,
+                source:jsonSource_LGA_42, 
+                style: style_LGA_42,
                 popuplayertitle: "LGA",
                 interactive: false,
-                title: '<img src="styles/legend/LGA_58.png" /> LGA'
+                title: '<img src="styles/legend/LGA_42.png" /> LGA'
             });
-var format_GreaterBendigoProperties_59 = new ol.format.GeoJSON();
-var features_GreaterBendigoProperties_59 = format_GreaterBendigoProperties_59.readFeatures(json_GreaterBendigoProperties_59, 
+var format_GreaterBendigoProperties_43 = new ol.format.GeoJSON();
+var features_GreaterBendigoProperties_43 = format_GreaterBendigoProperties_43.readFeatures(json_GreaterBendigoProperties_43, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_GreaterBendigoProperties_59 = new ol.source.Vector({
+var jsonSource_GreaterBendigoProperties_43 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_GreaterBendigoProperties_59.addFeatures(features_GreaterBendigoProperties_59);
-var lyr_GreaterBendigoProperties_59 = new ol.layer.Vector({
+jsonSource_GreaterBendigoProperties_43.addFeatures(features_GreaterBendigoProperties_43);
+var lyr_GreaterBendigoProperties_43 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_GreaterBendigoProperties_59, 
-                style: style_GreaterBendigoProperties_59,
+                source:jsonSource_GreaterBendigoProperties_43, 
+                style: style_GreaterBendigoProperties_43,
                 popuplayertitle: "Greater Bendigo Properties",
                 interactive: true,
-                title: '<img src="styles/legend/GreaterBendigoProperties_59.png" /> Greater Bendigo Properties'
+                title: '<img src="styles/legend/GreaterBendigoProperties_43.png" /> Greater Bendigo Properties'
             });
-var format_Suburb_60 = new ol.format.GeoJSON();
-var features_Suburb_60 = format_Suburb_60.readFeatures(json_Suburb_60, 
+var format_Suburb_44 = new ol.format.GeoJSON();
+var features_Suburb_44 = format_Suburb_44.readFeatures(json_Suburb_44, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Suburb_60 = new ol.source.Vector({
+var jsonSource_Suburb_44 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Suburb_60.addFeatures(features_Suburb_60);
-var lyr_Suburb_60 = new ol.layer.Vector({
+jsonSource_Suburb_44.addFeatures(features_Suburb_44);
+var lyr_Suburb_44 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Suburb_60, 
-                style: style_Suburb_60,
+                source:jsonSource_Suburb_44, 
+                style: style_Suburb_44,
                 popuplayertitle: "Suburb",
                 interactive: false,
-                title: '<img src="styles/legend/Suburb_60.png" /> Suburb'
+                title: '<img src="styles/legend/Suburb_44.png" /> Suburb'
             });
 var group_Administrative = new ol.layer.Group({
-                                layers: [lyr_LGA_58,lyr_GreaterBendigoProperties_59,lyr_Suburb_60,],
+                                layers: [lyr_LGA_42,lyr_GreaterBendigoProperties_43,lyr_Suburb_44,],
                                 fold: "open",
                                 title: "Administrative"});
 var group_StructurePlan = new ol.layer.Group({
-                                layers: [lyr_BagshotPrecinctConceptStructurePlan_57,],
+                                layers: [lyr_BagshotPrecinctConceptStructurePlan_41,],
                                 fold: "open",
                                 title: "Structure Plan"});
+var group_DCPItems = new ol.layer.Group({
+                                layers: [lyr_DCPODevelopmentContributionsPlanOverlay_36,lyr_DCPArea_37,lyr_HuntlyDCPStructure_38,lyr_DCPInfrastructureProjects_39,lyr_HuntlyDCPLandUGZLandandHuntlyWestArea_40,],
+                                fold: "open",
+                                title: "DCP Items"});
 var group_SSPFloodScenario20812100 = new ol.layer.Group({
-                                layers: [lyr_SSP5_54,lyr_SSP3_55,lyr_SSP2_56,],
+                                layers: [lyr_SSP5_33,lyr_SSP3_34,lyr_SSP2_35,],
                                 fold: "open",
                                 title: "SSP Flood Scenario 2081-2100"});
 var group_NDHDeductedOverlays = new ol.layer.Group({
-                                layers: [lyr_FOFloodwayOverlay_48,lyr_HOHeritageOverlay_49,lyr_LSIOLandSubjecttoInundationOverlay_50,lyr_VPOVegetationProtectionOverlay_51,lyr_HeritageRegister_52,lyr_WBWaterwaysBuffered_53,],
+                                layers: [lyr_FOFloodwayOverlay_27,lyr_HOHeritageOverlay_28,lyr_LSIOLandSubjecttoInundationOverlay_29,lyr_VPOVegetationProtectionOverlay_30,lyr_HeritageRegister_31,lyr_WBWaterwaysBuffered_32,],
                                 fold: "open",
                                 title: "NDH Deducted Overlays"});
 var group_NotetoDD = new ol.layer.Group({
-                                layers: [lyr_BAOBufferAreaOverlay_40,lyr_BMOBushfireManagementOverlay_41,lyr_ESOEnvironmentalSignificanceOverlay_42,lyr_PAOPublicAcquisitionOverlay_43,lyr_RORestructureOverlay_44,lyr_RXORoadClosureOverlay_45,lyr_SLOSignificantLandscapeOverlay_46,lyr_SROStateResourceOverlay_47,],
+                                layers: [lyr_BAOBufferAreaOverlay_19,lyr_BMOBushfireManagementOverlay_20,lyr_ESOEnvironmentalSignificanceOverlay_21,lyr_PAOPublicAcquisitionOverlay_22,lyr_RORestructureOverlay_23,lyr_RXORoadClosureOverlay_24,lyr_SLOSignificantLandscapeOverlay_25,lyr_SROStateResourceOverlay_26,],
                                 fold: "open",
                                 title: "Note to DD"});
 var group_OtherOverlays = new ol.layer.Group({
-                                layers: [lyr_AboriginalCulturalHeritageSensitivity_19,lyr_RegisteredAboriginalParties_20,lyr_HeritageInventory_21,lyr_RecognitionandSettlementAgreement_22,lyr_AEOAirportEnvironsOverlay_23,lyr_CLPOCityLinkProjectOverlay_24,lyr_DCPODevelopmentContributionsPlanOverlay_25,lyr_DDODesignandDevelopmentOverlay_26,lyr_DPODevelopmentPlanOverlay_27,lyr_EAOEnvironmentalAuditOverlay_28,lyr_EMOErosionManagementOverlay_29,lyr_ICOInfrastructureContributionsOverlay_30,lyr_IPOIncorporatedPlanOverlay_31,lyr_MAEOMelbourneAirportEnvironsOverlay_32,lyr_NCONeighbourhoodCharacterOverlay_33,lyr_POParkingOverlay_34,lyr_PSBProtectedSettlementBoundary_35,lyr_RFORuralFloodwayOverlay_36,lyr_SBOSpecialBuildingOverlay_37,lyr_SCOSpecificControlsOverlay_38,lyr_SMOSalinityManagementOverlay_39,],
+                                layers: [],
                                 fold: "open",
                                 title: "Other Overlays"});
 var group_Zoning = new ol.layer.Group({
@@ -940,8 +696,8 @@ var group_BaseLayer = new ol.layer.Group({
                                 fold: "open",
                                 title: "Base Layer"});
 
-lyr_GoogleMaps_0.setVisible(false);lyr_ESRISatelliteArcGISWorld_Imagery_1.setVisible(true);lyr_C2ZCommercial2Zone_2.setVisible(false);lyr_IN1ZIndustrial1Zone_3.setVisible(false);lyr_IN3ZIndustrial3Zone_4.setVisible(false);lyr_PCRZPublicConservationandResourceZone_5.setVisible(false);lyr_PPRZPublicParkandRecreationZone_6.setVisible(false);lyr_PUZ1PublicUseZoneServiceandUtility_7.setVisible(false);lyr_PUZ2PublicUseZoneEducation_8.setVisible(false);lyr_PUZ5PublicUseZoneCemetery_Crematorium_9.setVisible(false);lyr_PUZ6PublicUseZoneLocalGovernment_10.setVisible(false);lyr_RCZRuralConservationZone_11.setVisible(false);lyr_FZFarmingZone_12.setVisible(false);lyr_TRZ1StateTransportInfrastructure_13.setVisible(false);lyr_TRZ2PrincipalRoadNetwork_14.setVisible(false);lyr_RLZRuralLivingZone_15.setVisible(false);lyr_GRZGeneralResidentialZone_16.setVisible(false);lyr_LDRZLowDensityResidentialZone_17.setVisible(false);lyr_UGZUrbanGrowthZone_18.setVisible(false);lyr_AboriginalCulturalHeritageSensitivity_19.setVisible(false);lyr_RegisteredAboriginalParties_20.setVisible(false);lyr_HeritageInventory_21.setVisible(false);lyr_RecognitionandSettlementAgreement_22.setVisible(false);lyr_AEOAirportEnvironsOverlay_23.setVisible(false);lyr_CLPOCityLinkProjectOverlay_24.setVisible(false);lyr_DCPODevelopmentContributionsPlanOverlay_25.setVisible(false);lyr_DDODesignandDevelopmentOverlay_26.setVisible(false);lyr_DPODevelopmentPlanOverlay_27.setVisible(false);lyr_EAOEnvironmentalAuditOverlay_28.setVisible(false);lyr_EMOErosionManagementOverlay_29.setVisible(false);lyr_ICOInfrastructureContributionsOverlay_30.setVisible(false);lyr_IPOIncorporatedPlanOverlay_31.setVisible(false);lyr_MAEOMelbourneAirportEnvironsOverlay_32.setVisible(false);lyr_NCONeighbourhoodCharacterOverlay_33.setVisible(false);lyr_POParkingOverlay_34.setVisible(false);lyr_PSBProtectedSettlementBoundary_35.setVisible(false);lyr_RFORuralFloodwayOverlay_36.setVisible(false);lyr_SBOSpecialBuildingOverlay_37.setVisible(false);lyr_SCOSpecificControlsOverlay_38.setVisible(false);lyr_SMOSalinityManagementOverlay_39.setVisible(false);lyr_BAOBufferAreaOverlay_40.setVisible(false);lyr_BMOBushfireManagementOverlay_41.setVisible(false);lyr_ESOEnvironmentalSignificanceOverlay_42.setVisible(false);lyr_PAOPublicAcquisitionOverlay_43.setVisible(false);lyr_RORestructureOverlay_44.setVisible(false);lyr_RXORoadClosureOverlay_45.setVisible(false);lyr_SLOSignificantLandscapeOverlay_46.setVisible(false);lyr_SROStateResourceOverlay_47.setVisible(false);lyr_FOFloodwayOverlay_48.setVisible(false);lyr_HOHeritageOverlay_49.setVisible(false);lyr_LSIOLandSubjecttoInundationOverlay_50.setVisible(false);lyr_VPOVegetationProtectionOverlay_51.setVisible(false);lyr_HeritageRegister_52.setVisible(false);lyr_WBWaterwaysBuffered_53.setVisible(false);lyr_SSP5_54.setVisible(false);lyr_SSP3_55.setVisible(false);lyr_SSP2_56.setVisible(false);lyr_BagshotPrecinctConceptStructurePlan_57.setVisible(true);lyr_LGA_58.setVisible(true);lyr_GreaterBendigoProperties_59.setVisible(true);lyr_Suburb_60.setVisible(true);
-var layersList = [group_BaseLayer,group_Zoning,group_OtherOverlays,group_NotetoDD,group_NDHDeductedOverlays,group_SSPFloodScenario20812100,group_StructurePlan,group_Administrative];
+lyr_GoogleMaps_0.setVisible(false);lyr_ESRISatelliteArcGISWorld_Imagery_1.setVisible(true);lyr_C2ZCommercial2Zone_2.setVisible(false);lyr_IN1ZIndustrial1Zone_3.setVisible(false);lyr_IN3ZIndustrial3Zone_4.setVisible(false);lyr_PCRZPublicConservationandResourceZone_5.setVisible(false);lyr_PPRZPublicParkandRecreationZone_6.setVisible(false);lyr_PUZ1PublicUseZoneServiceandUtility_7.setVisible(false);lyr_PUZ2PublicUseZoneEducation_8.setVisible(false);lyr_PUZ5PublicUseZoneCemetery_Crematorium_9.setVisible(false);lyr_PUZ6PublicUseZoneLocalGovernment_10.setVisible(false);lyr_RCZRuralConservationZone_11.setVisible(false);lyr_FZFarmingZone_12.setVisible(false);lyr_TRZ1StateTransportInfrastructure_13.setVisible(false);lyr_TRZ2PrincipalRoadNetwork_14.setVisible(false);lyr_RLZRuralLivingZone_15.setVisible(false);lyr_GRZGeneralResidentialZone_16.setVisible(false);lyr_LDRZLowDensityResidentialZone_17.setVisible(false);lyr_UGZUrbanGrowthZone_18.setVisible(false);lyr_BAOBufferAreaOverlay_19.setVisible(false);lyr_BMOBushfireManagementOverlay_20.setVisible(false);lyr_ESOEnvironmentalSignificanceOverlay_21.setVisible(false);lyr_PAOPublicAcquisitionOverlay_22.setVisible(false);lyr_RORestructureOverlay_23.setVisible(false);lyr_RXORoadClosureOverlay_24.setVisible(false);lyr_SLOSignificantLandscapeOverlay_25.setVisible(false);lyr_SROStateResourceOverlay_26.setVisible(false);lyr_FOFloodwayOverlay_27.setVisible(false);lyr_HOHeritageOverlay_28.setVisible(false);lyr_LSIOLandSubjecttoInundationOverlay_29.setVisible(false);lyr_VPOVegetationProtectionOverlay_30.setVisible(false);lyr_HeritageRegister_31.setVisible(false);lyr_WBWaterwaysBuffered_32.setVisible(false);lyr_SSP5_33.setVisible(false);lyr_SSP3_34.setVisible(false);lyr_SSP2_35.setVisible(false);lyr_DCPODevelopmentContributionsPlanOverlay_36.setVisible(false);lyr_DCPArea_37.setVisible(true);lyr_HuntlyDCPStructure_38.setVisible(true);lyr_DCPInfrastructureProjects_39.setVisible(true);lyr_HuntlyDCPLandUGZLandandHuntlyWestArea_40.setVisible(true);lyr_BagshotPrecinctConceptStructurePlan_41.setVisible(true);lyr_LGA_42.setVisible(true);lyr_GreaterBendigoProperties_43.setVisible(true);lyr_Suburb_44.setVisible(true);
+var layersList = [group_BaseLayer,group_Zoning,group_NotetoDD,group_NDHDeductedOverlays,group_SSPFloodScenario20812100,group_DCPItems,group_StructurePlan,group_Administrative];
 lyr_C2ZCommercial2Zone_2.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
 lyr_IN1ZIndustrial1Zone_3.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
 lyr_IN3ZIndustrial3Zone_4.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
@@ -959,47 +715,27 @@ lyr_RLZRuralLivingZone_15.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECT
 lyr_GRZGeneralResidentialZone_16.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
 lyr_LDRZLowDensityResidentialZone_17.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
 lyr_UGZUrbanGrowthZone_18.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_AboriginalCulturalHeritageSensitivity_19.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'SENSITIVIT': 'SENSITIVIT', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_RegisteredAboriginalParties_20.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'ID': 'ID', 'NAME': 'NAME', 'ADDRESS': 'ADDRESS', 'TELEPHONE': 'TELEPHONE', 'REG_DATE': 'REG_DATE', 'CONTACT': 'CONTACT', 'EMAIL': 'EMAIL', 'AREA_': 'AREA_', 'SHORT_NAME': 'SHORT_NAME', 'SHORT': 'SHORT', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_HeritageInventory_21.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'VDPID': 'VDPID', 'UFI': 'UFI', 'HERMES_NUM': 'HERMES_NUM', 'VHR_NUM': 'VHR_NUM', 'VHI_NUM': 'VHI_NUM', 'HERITAGE_O': 'HERITAGE_O', 'SITE_NAME': 'SITE_NAME', 'ID': 'ID', 'UFI_CREATE': 'UFI_CREATE', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_RecognitionandSettlementAgreement_22.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'ID': 'ID', 'NAME': 'NAME', 'LABEL_NAME': 'LABEL_NAME', 'CATEGORY': 'CATEGORY', 'SUB_CATEGO': 'SUB_CATEGO', 'LEGISLATIO': 'LEGISLATIO', 'DATE_COMME': 'DATE_COMME', 'OFFICIAL_A': 'OFFICIAL_A', 'VERSION_DA': 'VERSION_DA', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_AEOAirportEnvironsOverlay_23.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_CLPOCityLinkProjectOverlay_24.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_DCPODevelopmentContributionsPlanOverlay_25.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_DDODesignandDevelopmentOverlay_26.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_DPODevelopmentPlanOverlay_27.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_EAOEnvironmentalAuditOverlay_28.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_EMOErosionManagementOverlay_29.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_ICOInfrastructureContributionsOverlay_30.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_IPOIncorporatedPlanOverlay_31.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_MAEOMelbourneAirportEnvironsOverlay_32.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_NCONeighbourhoodCharacterOverlay_33.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_POParkingOverlay_34.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_PSBProtectedSettlementBoundary_35.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_RFORuralFloodwayOverlay_36.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_SBOSpecialBuildingOverlay_37.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_SCOSpecificControlsOverlay_38.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_SMOSalinityManagementOverlay_39.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_BAOBufferAreaOverlay_40.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_BMOBushfireManagementOverlay_41.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_ESOEnvironmentalSignificanceOverlay_42.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_PAOPublicAcquisitionOverlay_43.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_RORestructureOverlay_44.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_RXORoadClosureOverlay_45.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_SLOSignificantLandscapeOverlay_46.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_SROStateResourceOverlay_47.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_FOFloodwayOverlay_48.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_HOHeritageOverlay_49.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_LSIOLandSubjecttoInundationOverlay_50.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_VPOVegetationProtectionOverlay_51.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
-lyr_HeritageRegister_52.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'VDPID': 'VDPID', 'UFI': 'UFI', 'HERMES_NUM': 'HERMES_NUM', 'VHR_NUM': 'VHR_NUM', 'VHI_NUM': 'VHI_NUM', 'HERITAGE_O': 'HERITAGE_O', 'SITE_NAME': 'SITE_NAME', 'ID': 'ID', 'UFI_CREATE': 'UFI_CREATE', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_WBWaterwaysBuffered_53.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
-lyr_SSP5_54.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
-lyr_SSP3_55.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
-lyr_SSP2_56.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
-lyr_LGA_58.set('fieldAliases', {'LGA_CODE24': 'LGA_CODE24', 'LGA_NAME24': 'LGA_NAME24', 'STE_CODE21': 'STE_CODE21', 'STE_NAME21': 'STE_NAME21', 'AUS_CODE21': 'AUS_CODE21', 'AUS_NAME21': 'AUS_NAME21', 'AREASQKM': 'AREASQKM', 'LOCI_URI21': 'LOCI_URI21', });
-lyr_GreaterBendigoProperties_59.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PROP_PFI': 'PROP_PFI', 'PROP_LGA_CODE': 'PROP_LGA_CODE', 'PROP_PROPNUM': 'PROP_PROPNUM', 'PROP_PROPERTY_TYPE': 'PROP_PROPERTY_TYPE', 'PROP_MULTI_ASSESSMENT': 'PROP_MULTI_ASSESSMENT', 'PROP_STATUS': 'PROP_STATUS', 'ADD_EZI_ADDRESS': 'ADD_EZI_ADDRESS', 'ADD_IS_PRIMARY': 'ADD_IS_PRIMARY', 'ADD_HOUSE_NUMBER_1': 'ADD_HOUSE_NUMBER_1', 'ADD_HOUSE_SUFFIX_1': 'ADD_HOUSE_SUFFIX_1', 'ADD_ROAD_NAME': 'ADD_ROAD_NAME', 'ADD_ROAD_TYPE': 'ADD_ROAD_TYPE', 'ADD_ROAD_SUFFIX': 'ADD_ROAD_SUFFIX', 'ADD_LOCALITY_NAME': 'ADD_LOCALITY_NAME', 'ADD_STATE': 'ADD_STATE', 'ADD_POSTCODE': 'ADD_POSTCODE', 'ADD_NUM_ROAD_ADDRESS': 'ADD_NUM_ROAD_ADDRESS', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', });
-lyr_Suburb_60.set('fieldAliases', {'LC_PLY_PID': 'LC_PLY_PID', 'LOC_PID': 'LOC_PID', 'DT_CREATE': 'DT_CREATE', 'LOC_NAME': 'LOC_NAME', 'LOC_CLASS': 'LOC_CLASS', 'STATE': 'STATE', });
+lyr_BAOBufferAreaOverlay_19.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
+lyr_BMOBushfireManagementOverlay_20.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_ESOEnvironmentalSignificanceOverlay_21.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
+lyr_PAOPublicAcquisitionOverlay_22.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_RORestructureOverlay_23.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_RXORoadClosureOverlay_24.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_SLOSignificantLandscapeOverlay_25.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_SROStateResourceOverlay_26.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_FOFloodwayOverlay_27.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_HOHeritageOverlay_28.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_LSIOLandSubjecttoInundationOverlay_29.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_VPOVegetationProtectionOverlay_30.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_HeritageRegister_31.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'VDPID': 'VDPID', 'UFI': 'UFI', 'HERMES_NUM': 'HERMES_NUM', 'VHR_NUM': 'VHR_NUM', 'VHI_NUM': 'VHI_NUM', 'HERITAGE_O': 'HERITAGE_O', 'SITE_NAME': 'SITE_NAME', 'ID': 'ID', 'UFI_CREATE': 'UFI_CREATE', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
+lyr_WBWaterwaysBuffered_32.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_SSP5_33.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_SSP3_34.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_SSP2_35.set('fieldAliases', {'fid': 'fid', 'LayerName': 'LayerName', 'layer': 'layer', 'path': 'path', });
+lyr_DCPODevelopmentContributionsPlanOverlay_36.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PFI': 'PFI', 'SCHEME_COD': 'SCHEME_COD', 'LGA_CODE': 'LGA_CODE', 'LGA': 'LGA', 'ZONE_NUM': 'ZONE_NUM', 'ZONE_STATU': 'ZONE_STATU', 'ZONE_CODE': 'ZONE_CODE', 'ZONE_DESCR': 'ZONE_DESCR', 'GAZ_BEGIN_': 'GAZ_BEGIN_', 'PFI_CREATE': 'PFI_CREATE', 'UFI': 'UFI', 'UFI_CREATE': 'UFI_CREATE', 'ZONE_CODE_': 'ZONE_CODE_', 'ZONE_COD_1': 'ZONE_COD_1', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'SHAPE_Area', });
+lyr_LGA_42.set('fieldAliases', {'LGA_CODE24': 'LGA_CODE24', 'LGA_NAME24': 'LGA_NAME24', 'STE_CODE21': 'STE_CODE21', 'STE_NAME21': 'STE_NAME21', 'AUS_CODE21': 'AUS_CODE21', 'AUS_NAME21': 'AUS_NAME21', 'AREASQKM': 'AREASQKM', 'LOCI_URI21': 'LOCI_URI21', });
+lyr_GreaterBendigoProperties_43.set('fieldAliases', {'fid': 'fid', 'OBJECTID': 'OBJECTID', 'PROP_PFI': 'PROP_PFI', 'PROP_LGA_CODE': 'PROP_LGA_CODE', 'PROP_PROPNUM': 'PROP_PROPNUM', 'PROP_PROPERTY_TYPE': 'PROP_PROPERTY_TYPE', 'PROP_MULTI_ASSESSMENT': 'PROP_MULTI_ASSESSMENT', 'PROP_STATUS': 'PROP_STATUS', 'ADD_EZI_ADDRESS': 'ADD_EZI_ADDRESS', 'ADD_IS_PRIMARY': 'ADD_IS_PRIMARY', 'ADD_HOUSE_NUMBER_1': 'ADD_HOUSE_NUMBER_1', 'ADD_HOUSE_SUFFIX_1': 'ADD_HOUSE_SUFFIX_1', 'ADD_ROAD_NAME': 'ADD_ROAD_NAME', 'ADD_ROAD_TYPE': 'ADD_ROAD_TYPE', 'ADD_ROAD_SUFFIX': 'ADD_ROAD_SUFFIX', 'ADD_LOCALITY_NAME': 'ADD_LOCALITY_NAME', 'ADD_STATE': 'ADD_STATE', 'ADD_POSTCODE': 'ADD_POSTCODE', 'ADD_NUM_ROAD_ADDRESS': 'ADD_NUM_ROAD_ADDRESS', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', });
+lyr_Suburb_44.set('fieldAliases', {'LC_PLY_PID': 'LC_PLY_PID', 'LOC_PID': 'LOC_PID', 'DT_CREATE': 'DT_CREATE', 'LOC_NAME': 'LOC_NAME', 'LOC_CLASS': 'LOC_CLASS', 'STATE': 'STATE', });
 lyr_C2ZCommercial2Zone_2.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_IN1ZIndustrial1Zone_3.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_IN3ZIndustrial3Zone_4.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
@@ -1017,47 +753,27 @@ lyr_RLZRuralLivingZone_15.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'Te
 lyr_GRZGeneralResidentialZone_16.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_LDRZLowDensityResidentialZone_17.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
 lyr_UGZUrbanGrowthZone_18.set('fieldImages', {'fid': 'TextEdit', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
-lyr_AboriginalCulturalHeritageSensitivity_19.set('fieldImages', {'fid': '', 'OBJECTID': '', 'SENSITIVIT': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_RegisteredAboriginalParties_20.set('fieldImages', {'OBJECTID': 'TextEdit', 'ID': 'TextEdit', 'NAME': 'TextEdit', 'ADDRESS': 'TextEdit', 'TELEPHONE': 'TextEdit', 'REG_DATE': 'DateTime', 'CONTACT': 'TextEdit', 'EMAIL': 'TextEdit', 'AREA_': 'TextEdit', 'SHORT_NAME': 'TextEdit', 'SHORT': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
-lyr_HeritageInventory_21.set('fieldImages', {'fid': '', 'OBJECTID': '', 'VDPID': '', 'UFI': '', 'HERMES_NUM': '', 'VHR_NUM': '', 'VHI_NUM': '', 'HERITAGE_O': '', 'SITE_NAME': '', 'ID': '', 'UFI_CREATE': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_RecognitionandSettlementAgreement_22.set('fieldImages', {'fid': '', 'OBJECTID': '', 'ID': '', 'NAME': '', 'LABEL_NAME': '', 'CATEGORY': '', 'SUB_CATEGO': '', 'LEGISLATIO': '', 'DATE_COMME': '', 'OFFICIAL_A': '', 'VERSION_DA': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_AEOAirportEnvironsOverlay_23.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_CLPOCityLinkProjectOverlay_24.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_DCPODevelopmentContributionsPlanOverlay_25.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_DDODesignandDevelopmentOverlay_26.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_DPODevelopmentPlanOverlay_27.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_EAOEnvironmentalAuditOverlay_28.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_EMOErosionManagementOverlay_29.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_ICOInfrastructureContributionsOverlay_30.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_IPOIncorporatedPlanOverlay_31.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_MAEOMelbourneAirportEnvironsOverlay_32.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_NCONeighbourhoodCharacterOverlay_33.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_POParkingOverlay_34.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_PSBProtectedSettlementBoundary_35.set('fieldImages', {'fid': '', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
-lyr_RFORuralFloodwayOverlay_36.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SBOSpecialBuildingOverlay_37.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SCOSpecificControlsOverlay_38.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SMOSalinityManagementOverlay_39.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_BAOBufferAreaOverlay_40.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_BMOBushfireManagementOverlay_41.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_ESOEnvironmentalSignificanceOverlay_42.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_PAOPublicAcquisitionOverlay_43.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_RORestructureOverlay_44.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_RXORoadClosureOverlay_45.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SLOSignificantLandscapeOverlay_46.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_SROStateResourceOverlay_47.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_FOFloodwayOverlay_48.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_HOHeritageOverlay_49.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_LSIOLandSubjecttoInundationOverlay_50.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_VPOVegetationProtectionOverlay_51.set('fieldImages', {'fid': '', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
-lyr_HeritageRegister_52.set('fieldImages', {'fid': '', 'OBJECTID': '', 'VDPID': '', 'UFI': '', 'HERMES_NUM': '', 'VHR_NUM': '', 'VHI_NUM': '', 'HERITAGE_O': '', 'SITE_NAME': '', 'ID': '', 'UFI_CREATE': '', 'Shape_Leng': '', 'Shape_Area': '', });
-lyr_WBWaterwaysBuffered_53.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
-lyr_SSP5_54.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
-lyr_SSP3_55.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
-lyr_SSP2_56.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
-lyr_LGA_58.set('fieldImages', {'LGA_CODE24': 'TextEdit', 'LGA_NAME24': 'TextEdit', 'STE_CODE21': 'TextEdit', 'STE_NAME21': 'TextEdit', 'AUS_CODE21': 'TextEdit', 'AUS_NAME21': 'TextEdit', 'AREASQKM': 'TextEdit', 'LOCI_URI21': 'TextEdit', });
-lyr_GreaterBendigoProperties_59.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PROP_PFI': '', 'PROP_LGA_CODE': '', 'PROP_PROPNUM': '', 'PROP_PROPERTY_TYPE': '', 'PROP_MULTI_ASSESSMENT': '', 'PROP_STATUS': '', 'ADD_EZI_ADDRESS': '', 'ADD_IS_PRIMARY': '', 'ADD_HOUSE_NUMBER_1': '', 'ADD_HOUSE_SUFFIX_1': '', 'ADD_ROAD_NAME': '', 'ADD_ROAD_TYPE': '', 'ADD_ROAD_SUFFIX': '', 'ADD_LOCALITY_NAME': '', 'ADD_STATE': '', 'ADD_POSTCODE': '', 'ADD_NUM_ROAD_ADDRESS': '', 'Shape_Length': '', 'Shape_Area': '', });
-lyr_Suburb_60.set('fieldImages', {'LC_PLY_PID': 'TextEdit', 'LOC_PID': 'TextEdit', 'DT_CREATE': 'DateTime', 'LOC_NAME': 'TextEdit', 'LOC_CLASS': 'TextEdit', 'STATE': 'TextEdit', });
+lyr_BAOBufferAreaOverlay_19.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_BMOBushfireManagementOverlay_20.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_ESOEnvironmentalSignificanceOverlay_21.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_PAOPublicAcquisitionOverlay_22.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_RORestructureOverlay_23.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_RXORoadClosureOverlay_24.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_SLOSignificantLandscapeOverlay_25.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_SROStateResourceOverlay_26.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_FOFloodwayOverlay_27.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_HOHeritageOverlay_28.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_LSIOLandSubjecttoInundationOverlay_29.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_VPOVegetationProtectionOverlay_30.set('fieldImages', {'fid': '', 'OBJECTID': 'TextEdit', 'PFI': 'TextEdit', 'SCHEME_COD': 'TextEdit', 'LGA_CODE': 'TextEdit', 'LGA': 'TextEdit', 'ZONE_NUM': 'TextEdit', 'ZONE_STATU': 'TextEdit', 'ZONE_CODE': 'TextEdit', 'ZONE_DESCR': 'TextEdit', 'GAZ_BEGIN_': 'TextEdit', 'PFI_CREATE': 'TextEdit', 'UFI': 'TextEdit', 'UFI_CREATE': 'TextEdit', 'ZONE_CODE_': 'TextEdit', 'ZONE_COD_1': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
+lyr_HeritageRegister_31.set('fieldImages', {'fid': '', 'OBJECTID': '', 'VDPID': '', 'UFI': '', 'HERMES_NUM': '', 'VHR_NUM': '', 'VHI_NUM': '', 'HERITAGE_O': '', 'SITE_NAME': '', 'ID': '', 'UFI_CREATE': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_WBWaterwaysBuffered_32.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_SSP5_33.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_SSP3_34.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_SSP2_35.set('fieldImages', {'fid': 'TextEdit', 'LayerName': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_DCPODevelopmentContributionsPlanOverlay_36.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PFI': '', 'SCHEME_COD': '', 'LGA_CODE': '', 'LGA': '', 'ZONE_NUM': '', 'ZONE_STATU': '', 'ZONE_CODE': '', 'ZONE_DESCR': '', 'GAZ_BEGIN_': '', 'PFI_CREATE': '', 'UFI': '', 'UFI_CREATE': '', 'ZONE_CODE_': '', 'ZONE_COD_1': '', 'Shape_Leng': '', 'Shape_Area': '', });
+lyr_LGA_42.set('fieldImages', {'LGA_CODE24': 'TextEdit', 'LGA_NAME24': 'TextEdit', 'STE_CODE21': 'TextEdit', 'STE_NAME21': 'TextEdit', 'AUS_CODE21': 'TextEdit', 'AUS_NAME21': 'TextEdit', 'AREASQKM': 'TextEdit', 'LOCI_URI21': 'TextEdit', });
+lyr_GreaterBendigoProperties_43.set('fieldImages', {'fid': '', 'OBJECTID': '', 'PROP_PFI': '', 'PROP_LGA_CODE': '', 'PROP_PROPNUM': '', 'PROP_PROPERTY_TYPE': '', 'PROP_MULTI_ASSESSMENT': '', 'PROP_STATUS': '', 'ADD_EZI_ADDRESS': '', 'ADD_IS_PRIMARY': '', 'ADD_HOUSE_NUMBER_1': '', 'ADD_HOUSE_SUFFIX_1': '', 'ADD_ROAD_NAME': '', 'ADD_ROAD_TYPE': '', 'ADD_ROAD_SUFFIX': '', 'ADD_LOCALITY_NAME': '', 'ADD_STATE': '', 'ADD_POSTCODE': '', 'ADD_NUM_ROAD_ADDRESS': '', 'Shape_Length': '', 'Shape_Area': '', });
+lyr_Suburb_44.set('fieldImages', {'LC_PLY_PID': 'TextEdit', 'LOC_PID': 'TextEdit', 'DT_CREATE': 'DateTime', 'LOC_NAME': 'TextEdit', 'LOC_CLASS': 'TextEdit', 'STATE': 'TextEdit', });
 lyr_C2ZCommercial2Zone_2.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_IN1ZIndustrial1Zone_3.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_IN3ZIndustrial3Zone_4.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
@@ -1075,47 +791,27 @@ lyr_RLZRuralLivingZone_15.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID':
 lyr_GRZGeneralResidentialZone_16.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_LDRZLowDensityResidentialZone_17.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
 lyr_UGZUrbanGrowthZone_18.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_AboriginalCulturalHeritageSensitivity_19.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'SENSITIVIT': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_RegisteredAboriginalParties_20.set('fieldLabels', {'OBJECTID': 'no label', 'ID': 'no label', 'NAME': 'no label', 'ADDRESS': 'no label', 'TELEPHONE': 'no label', 'REG_DATE': 'no label', 'CONTACT': 'no label', 'EMAIL': 'no label', 'AREA_': 'no label', 'SHORT_NAME': 'no label', 'SHORT': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_HeritageInventory_21.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'VDPID': 'no label', 'UFI': 'no label', 'HERMES_NUM': 'no label', 'VHR_NUM': 'no label', 'VHI_NUM': 'no label', 'HERITAGE_O': 'no label', 'SITE_NAME': 'no label', 'ID': 'no label', 'UFI_CREATE': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_RecognitionandSettlementAgreement_22.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'ID': 'no label', 'NAME': 'no label', 'LABEL_NAME': 'no label', 'CATEGORY': 'no label', 'SUB_CATEGO': 'no label', 'LEGISLATIO': 'no label', 'DATE_COMME': 'no label', 'OFFICIAL_A': 'no label', 'VERSION_DA': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_AEOAirportEnvironsOverlay_23.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_CLPOCityLinkProjectOverlay_24.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_DCPODevelopmentContributionsPlanOverlay_25.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_DDODesignandDevelopmentOverlay_26.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_DPODevelopmentPlanOverlay_27.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_EAOEnvironmentalAuditOverlay_28.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_EMOErosionManagementOverlay_29.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_ICOInfrastructureContributionsOverlay_30.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_IPOIncorporatedPlanOverlay_31.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_MAEOMelbourneAirportEnvironsOverlay_32.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_NCONeighbourhoodCharacterOverlay_33.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_POParkingOverlay_34.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_PSBProtectedSettlementBoundary_35.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_RFORuralFloodwayOverlay_36.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_SBOSpecialBuildingOverlay_37.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_SCOSpecificControlsOverlay_38.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_SMOSalinityManagementOverlay_39.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_BAOBufferAreaOverlay_40.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_BMOBushfireManagementOverlay_41.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_ESOEnvironmentalSignificanceOverlay_42.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_PAOPublicAcquisitionOverlay_43.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_RORestructureOverlay_44.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_RXORoadClosureOverlay_45.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_SLOSignificantLandscapeOverlay_46.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_SROStateResourceOverlay_47.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_FOFloodwayOverlay_48.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_HOHeritageOverlay_49.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_LSIOLandSubjecttoInundationOverlay_50.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_VPOVegetationProtectionOverlay_51.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_HeritageRegister_52.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'VDPID': 'no label', 'UFI': 'no label', 'HERMES_NUM': 'no label', 'VHR_NUM': 'no label', 'VHI_NUM': 'no label', 'HERITAGE_O': 'no label', 'SITE_NAME': 'no label', 'ID': 'no label', 'UFI_CREATE': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_WBWaterwaysBuffered_53.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
-lyr_SSP5_54.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
-lyr_SSP3_55.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
-lyr_SSP2_56.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
-lyr_LGA_58.set('fieldLabels', {'LGA_CODE24': 'hidden field', 'LGA_NAME24': 'hidden field', 'STE_CODE21': 'hidden field', 'STE_NAME21': 'hidden field', 'AUS_CODE21': 'hidden field', 'AUS_NAME21': 'hidden field', 'AREASQKM': 'hidden field', 'LOCI_URI21': 'hidden field', });
-lyr_GreaterBendigoProperties_59.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PROP_PFI': 'hidden field', 'PROP_LGA_CODE': 'hidden field', 'PROP_PROPNUM': 'hidden field', 'PROP_PROPERTY_TYPE': 'hidden field', 'PROP_MULTI_ASSESSMENT': 'hidden field', 'PROP_STATUS': 'hidden field', 'ADD_EZI_ADDRESS': 'header label - visible with data', 'ADD_IS_PRIMARY': 'hidden field', 'ADD_HOUSE_NUMBER_1': 'hidden field', 'ADD_HOUSE_SUFFIX_1': 'hidden field', 'ADD_ROAD_NAME': 'hidden field', 'ADD_ROAD_TYPE': 'hidden field', 'ADD_ROAD_SUFFIX': 'hidden field', 'ADD_LOCALITY_NAME': 'hidden field', 'ADD_STATE': 'hidden field', 'ADD_POSTCODE': 'hidden field', 'ADD_NUM_ROAD_ADDRESS': 'hidden field', 'Shape_Length': 'hidden field', 'Shape_Area': 'hidden field', });
-lyr_Suburb_60.set('fieldLabels', {'LC_PLY_PID': 'hidden field', 'LOC_PID': 'hidden field', 'DT_CREATE': 'hidden field', 'LOC_NAME': 'hidden field', 'LOC_CLASS': 'hidden field', 'STATE': 'hidden field', });
-lyr_Suburb_60.on('precompose', function(evt) {
+lyr_BAOBufferAreaOverlay_19.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_BMOBushfireManagementOverlay_20.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_ESOEnvironmentalSignificanceOverlay_21.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_PAOPublicAcquisitionOverlay_22.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_RORestructureOverlay_23.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_RXORoadClosureOverlay_24.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_SLOSignificantLandscapeOverlay_25.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_SROStateResourceOverlay_26.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_FOFloodwayOverlay_27.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_HOHeritageOverlay_28.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_LSIOLandSubjecttoInundationOverlay_29.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_VPOVegetationProtectionOverlay_30.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_HeritageRegister_31.set('fieldLabels', {'fid': 'no label', 'OBJECTID': 'no label', 'VDPID': 'no label', 'UFI': 'no label', 'HERMES_NUM': 'no label', 'VHR_NUM': 'no label', 'VHI_NUM': 'no label', 'HERITAGE_O': 'no label', 'SITE_NAME': 'no label', 'ID': 'no label', 'UFI_CREATE': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
+lyr_WBWaterwaysBuffered_32.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_SSP5_33.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_SSP3_34.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_SSP2_35.set('fieldLabels', {'fid': 'no label', 'LayerName': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_DCPODevelopmentContributionsPlanOverlay_36.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PFI': 'hidden field', 'SCHEME_COD': 'hidden field', 'LGA_CODE': 'hidden field', 'LGA': 'hidden field', 'ZONE_NUM': 'hidden field', 'ZONE_STATU': 'hidden field', 'ZONE_CODE': 'hidden field', 'ZONE_DESCR': 'hidden field', 'GAZ_BEGIN_': 'hidden field', 'PFI_CREATE': 'hidden field', 'UFI': 'hidden field', 'UFI_CREATE': 'hidden field', 'ZONE_CODE_': 'hidden field', 'ZONE_COD_1': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_LGA_42.set('fieldLabels', {'LGA_CODE24': 'hidden field', 'LGA_NAME24': 'hidden field', 'STE_CODE21': 'hidden field', 'STE_NAME21': 'hidden field', 'AUS_CODE21': 'hidden field', 'AUS_NAME21': 'hidden field', 'AREASQKM': 'hidden field', 'LOCI_URI21': 'hidden field', });
+lyr_GreaterBendigoProperties_43.set('fieldLabels', {'fid': 'hidden field', 'OBJECTID': 'hidden field', 'PROP_PFI': 'hidden field', 'PROP_LGA_CODE': 'hidden field', 'PROP_PROPNUM': 'hidden field', 'PROP_PROPERTY_TYPE': 'hidden field', 'PROP_MULTI_ASSESSMENT': 'hidden field', 'PROP_STATUS': 'hidden field', 'ADD_EZI_ADDRESS': 'header label - visible with data', 'ADD_IS_PRIMARY': 'hidden field', 'ADD_HOUSE_NUMBER_1': 'hidden field', 'ADD_HOUSE_SUFFIX_1': 'hidden field', 'ADD_ROAD_NAME': 'hidden field', 'ADD_ROAD_TYPE': 'hidden field', 'ADD_ROAD_SUFFIX': 'hidden field', 'ADD_LOCALITY_NAME': 'hidden field', 'ADD_STATE': 'hidden field', 'ADD_POSTCODE': 'hidden field', 'ADD_NUM_ROAD_ADDRESS': 'hidden field', 'Shape_Length': 'hidden field', 'Shape_Area': 'hidden field', });
+lyr_Suburb_44.set('fieldLabels', {'LC_PLY_PID': 'hidden field', 'LOC_PID': 'hidden field', 'DT_CREATE': 'hidden field', 'LOC_NAME': 'hidden field', 'LOC_CLASS': 'hidden field', 'STATE': 'hidden field', });
+lyr_Suburb_44.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
