@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([16053055.045136, -4405273.164350, 16105009.611934, -4368418.748844], map.getSize());
+map.getView().fit([16069189.517024, -4395218.948167, 16075904.295725, -4390609.531226], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -213,7 +213,13 @@ function onPointerMove(evt) {
             }
         }
     });
-    if (doHighlight) {
+    if (popupText == '<ul>') {
+        popupText = '';
+    } else {
+        popupText += '</ul>';
+    }
+    
+	if (doHighlight) {
         if (currentFeature !== highlight) {
             // Check if highlight is defined and exists in the source before removing
             if (highlight && featureOverlay.getSource().getFeatures().includes(highlight)) {
@@ -295,6 +301,7 @@ function onPointerMove(evt) {
             closer.blur();
         }
     };
+
 map.on('pointermove', onPointerMove);
 
 var popupContent = '';
